@@ -17,13 +17,13 @@ has_children: false
 1. [品質管理システム]トップ画面から「ベース図面」を選択します。
 
     <table><tr><td>
-    <img src="../../../../assets/images/drawing-registration/drawing/1.png" width="60%">
+    <img src="../../../assets/images/drawing-registration/drawing/1.png" width="60%">
     </td></tr></table>
 
 1. [ベース図面一覧]画面で共通描き込みしたいベース図面の「詳細」をクリックします。
 
     <table><tr><td>
-    <img src="../../../../assets/images/drawing-registration/drawing/2.png" width="85%">
+    <img src="../../../assets/images/drawing-registration/drawing/2.png" width="85%">
     </td></tr></table>
 
 1. 描き込みを行いたいベース図面の「編集」をクリックします。
