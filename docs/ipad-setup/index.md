@@ -31,10 +31,10 @@ has_children: false
     <img src="../../assets/images/ipad_setup/2.png" width="60%">
     </td></tr></table>
 
-1. 検索結果から「FileMaker Go 2023」のページを開き、ダウンロードします。
+1. 検索結果から「FileMaker Go 2024」のページを開き、ダウンロードします。
 
     <table><tr><td>
-    <img src="../../assets/images/ipad_setup/3.png" width="60%">
+    <img src="../../assets/images/ipad_setup/3_20240826.png" width="60%">
     </td></tr></table>
 
 1. ダウンロードが完了したら、FileMaker Goを起動します。
