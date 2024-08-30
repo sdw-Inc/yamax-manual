@@ -36,7 +36,7 @@ has_children: false
 4. [図面名称]、[図面番号]の読取範囲を指定します。  
     
     　　・図面名称：<span style="color: red; ">赤枠</span>  
-    　　・図面番号：<span style="color: orange; ">黄枠</span>  
+    　　・図面番号：<span style="color: #009be8 ; ">水色枠</span>  
 
     「次へ」をクリックで、指定した範囲の切り取り処理を行います。
 

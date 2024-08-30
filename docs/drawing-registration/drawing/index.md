@@ -38,7 +38,6 @@ has_children: false
     <img src="../../../assets/images/drawing-registration/drawing/4.png" width="80%">
     </td></tr></table>
 
-<!-- <br> -->
 ## ツール
 
 ### 下記のツール以外の仕様は、[個別描き込み]({% link docs/quality-control/worker/drawing/index.md%})と同じです。
@@ -64,17 +63,23 @@ has_children: false
         <img src="../../../assets/images/drawing-registration/drawing/6.png" width="90%">
         </td></tr></table>
 
-{: .note }
-道的テキストの前後に文字をすることも可能です。  
-例）%階数%階  →　3階
-
-{: .warning }
-図面の印刷を行う場合は、一度、個別の図面手描き機能画面で保存しないと動的テキストが表示されません。
+    {: .note }
+    道的テキストの前後に文字をすることも可能です。  
+    例）%階数%階  →　3階
 
 - QRコード位置指定   
 
     チェックリスト表示用のQRコードを表示する位置を指定することができます。
 
-    <!-- <table><tr><td>
-    <img src="../../../assets/images/drawing-registration/drawing/7.png" width="75%">
-    </td></tr></table> -->
+    1. 選択ツールを使用してQRコードを選択し、移動やサイズ変更を行います。  
+
+        <table><tr><td>
+        <img src="../../../assets/images/drawing-registration/drawing/7.png" width="100%">
+        </td></tr></table>
+
+{: .warning }
+ベース図面に製品が１つも適用されていない場合は、[道的テキストボックス]と[QRコード位置指定]ツールは使用できません。
+[製品の登録]({% link docs/drawing-registration/registration-product/index.md%})を行ってから使用してください。
+
+{: .warning }
+図面の印刷を行う場合は、一度、個別の図面手描き機能画面で保存しないと[動的テキスト]と[QRコード]は表示されません。
