@@ -9,7 +9,8 @@ has_children: false
 # 製品マスタをexcelからインポートする
 
 <br>
-1. 製品データを入力するエクセルファイルをダウンロードします。
+1. 下記リンクから、製品データを入力するエクセルファイルをダウンロードします。  
+    [Excelファイルダウンロード](../../../assets/files/product-registration/import-product/productMst_format.xlsx "other type of attachments")
 
     <table><tr><td>
     <img src="../../../assets/images/product-registration/import-product/1.png" width="90%">

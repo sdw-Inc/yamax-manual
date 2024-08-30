@@ -1,7 +1,7 @@
 ---
 layout: default
 title: コンクリート品質管理
-nav_order: 8
+nav_order: 9
 has_children: true
 ---
 
