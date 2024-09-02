@@ -1,1012 +1,627 @@
 {"0": {
     "doc": "更新履歴",
     "title": "更新履歴",
-    "content": "2024-08-30 . | ベース図面の登録　追加 | 製品の図面を削除する　変更 | 図面に手描きする　変更 | スタンプマスタ 追加 | . ",
+    "content": "2024-08-30 . | ベース図面の登録　追加 | 製品の図面を削除する　変更 | 図面に手描きする　変更 | スタンプマスタ 追加 | 不要機能　削除 | . ",
     "url": "/CHANGELOG.html",
     
     "relUrl": "/CHANGELOG.html"
   },"1": {
-    "doc": "荷姿票に[運転手]、[運転手電話番号]、[車番]を登録",
-    "title": "荷姿票に[運転手]、[運転手電話番号]、[車番]を登録する",
-    "content": ". | . 事前に車両、運転手マスタの設定が必要です。 . | [出荷票一覧]画面から編集したい荷姿票の「編集」を選択します。 . | . | [車両番号]、[運転手]を選択します。[運転手 電話番号]は運転手マスタから参照され自動で入力されます。 . | . | . | 外部委託する [配送業者]欄のトラックアイコンを選択します。委託先業者の[運送業者]、[車両番号]、[運転手]、[運転手 電話番号]の情報を登録します。 . | . | . | . ",
-    "url": "/docs/shipment-control/shipping-company/registration-packing/#%E8%8D%B7%E5%A7%BF%E7%A5%A8%E3%81%AB%E9%81%8B%E8%BB%A2%E6%89%8B%E9%81%8B%E8%BB%A2%E6%89%8B%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%E8%BB%8A%E7%95%AA%E3%82%92%E7%99%BB%E9%8C%B2%E3%81%99%E3%82%8B",
-    
-    "relUrl": "/docs/shipment-control/shipping-company/registration-packing/#荷姿票に運転手運転手電話番号車番を登録する"
-  },"2": {
-    "doc": "荷姿票に[運転手]、[運転手電話番号]、[車番]を登録",
-    "title": "荷姿票に[運転手]、[運転手電話番号]、[車番]を登録",
-    "content": " ",
-    "url": "/docs/shipment-control/shipping-company/registration-packing/",
-    
-    "relUrl": "/docs/shipment-control/shipping-company/registration-packing/"
-  },"3": {
-    "doc": "WEB出荷管理システムにログイン",
-    "title": "WEB出荷管理システムにログインする",
-    "content": "発注会社から指定されたURL、[ログインID]と[パスワード]を使用し、出荷管理システムにログインします。(項目設定：基幹システム_運送業者マスタ) . | . ",
-    "url": "/docs/shipment-control/shipping-company/login/#web%E5%87%BA%E8%8D%B7%E7%AE%A1%E7%90%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E3%81%99%E3%82%8B",
-    
-    "relUrl": "/docs/shipment-control/shipping-company/login/#web出荷管理システムにログインする"
-  },"4": {
-    "doc": "WEB出荷管理システムにログイン",
-    "title": "WEB出荷管理システムにログイン",
-    "content": " ",
-    "url": "/docs/shipment-control/shipping-company/login/",
-    
-    "relUrl": "/docs/shipment-control/shipping-company/login/"
-  },"5": {
-    "doc": "機能：運送会社向け",
-    "title": "機能：運送会社向け",
-    "content": "出荷管理：運送会社様向けの機能一覧となります。 . ",
-    "url": "/docs/shipment-control/shipping-company/",
-    
-    "relUrl": "/docs/shipment-control/shipping-company/"
-  },"6": {
-    "doc": "製品登録",
-    "title": "製品登録",
-    "content": "製品登録は製品マスタの登録を参考に行ってください。 . ",
-    "url": "/docs/shipment-control/pre-configuration/registration-product/",
-    
-    "relUrl": "/docs/shipment-control/pre-configuration/registration-product/"
-  },"7": {
     "doc": "物件登録(情報追加)",
     "title": "物件登録(情報追加)",
     "content": "荷姿票を作る上で必要な情報を物件マスタに追加します。 . | 物件情報の編集画面に移動します。 基幹システム：物件 &gt; 物件一覧(情報追加したい物件を選択) &gt; 編集 . | [現場住所]、[PC(プレキャスト)受入担当]、[現場担当者]、[携帯番号]を設定します。荷姿票、受領書・納品書などで記載、各システムで表示されます。 . | . | . ",
     "url": "/docs/shipment-control/pre-configuration/registration-property/",
     
     "relUrl": "/docs/shipment-control/pre-configuration/registration-property/"
-  },"8": {
+  },"2": {
     "doc": "運送業者登録",
     "title": "運送業者登録",
     "content": ". | 「基幹システム」トップ画面の[マスタ設定]から「運送業者」マスタを選択します。 . | . | [運送業者一覧]画面から「新規」を選択します。 . | . | . | [コード]、[名称]、[ログインID]、[ログインパスワード]を設定し、「登録」ボタンを選択します。 [コード]以外は入力必須項目ではありませんが、WEB出荷管理システムへのログイン情報、荷姿票、受領書・納品書に記入される情報となります。 . | 運送業者一覧に業者が登録されます。荷姿票作成時に運送業者を選択することができるようになります。 また、登録された運送業者は[ログインID]と[ログインパスワード]を使用してWEB出荷管理システムにログインできるようになり、荷姿票に車両と運転手情報を登録できるようになります。 . | . ",
     "url": "/docs/shipment-control/pre-configuration/registration-carrier/",
     
     "relUrl": "/docs/shipment-control/pre-configuration/registration-carrier/"
-  },"9": {
+  },"3": {
     "doc": "事前設定",
     "title": "事前設定",
     "content": "出荷管理を行うために必要な事前設定一覧となります。 . ",
     "url": "/docs/shipment-control/pre-configuration/",
     
     "relUrl": "/docs/shipment-control/pre-configuration/"
-  },"10": {
+  },"4": {
     "doc": "荷姿票、受領書、納品書の印刷",
     "title": "荷姿票、受領書、納品書の印刷をする",
     "content": ". | 品質管理システム_荷姿票_荷姿票一覧から受領書・納品書を作成したい製品を選択し「閲覧」を選択します。 . | [荷姿票詳細]詳細画面で「荷姿票」「納品書、受領書」ボタンを選択します。 . ※ 車両ごとの印刷になります . | プリント設定を確認して印刷します。 . | . | . ",
     "url": "/docs/shipment-control/manufacture-company/print-packing/#%E8%8D%B7%E5%A7%BF%E7%A5%A8%E5%8F%97%E9%A0%98%E6%9B%B8%E7%B4%8D%E5%93%81%E6%9B%B8%E3%81%AE%E5%8D%B0%E5%88%B7%E3%82%92%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/shipment-control/manufacture-company/print-packing/#荷姿票受領書納品書の印刷をする"
-  },"11": {
+  },"5": {
     "doc": "荷姿票、受領書、納品書の印刷",
     "title": "荷姿票、受領書、納品書の印刷",
     "content": " ",
     "url": "/docs/shipment-control/manufacture-company/print-packing/",
     
     "relUrl": "/docs/shipment-control/manufacture-company/print-packing/"
-  },"12": {
+  },"6": {
     "doc": "荷姿票各項目詳細",
     "title": "荷姿票各項目詳細",
     "content": ". 伝票管理情報、連絡先 ・伝票No 着日(製品が現場に到着する日付)を元に[西暦下二桁-着日-物件コード]の形式で発番します。 例）着日が2023年1月1日、物件コードが001の場合：23-0101-001 (項目設定　基幹システム：物件マスタ &gt; 物件コード) ・発行日 荷姿票を作成した日付が自動入力されます。 ・(印刷時に表示)発注会社情報 発注会社の名称と住所、電話番号が表示されます。 物件関連情報 ・工事/物件名、現場住所 (項目設定　基幹システム：物件マスタ &gt; 名称、現場住所) ・入場ゲート(自由記述) 搬入口のゲート番号などを設定できます。 ・着日 製品が現場に到着する日付を設定します。 ・PC受入担当 (項目設定　基幹システム：物件マスタ &gt; PC受入担当) ※ 印刷時末尾に敬称(様)が記載されます。 ・担当者(発注側)、担当者(発注側)携帯番号 伝票管理情報欄に記載されます。 (項目設定　基幹システム：物件マスタ &gt; 現場担当者、携帯番号) 車両関連情報 ・号車 配送に使用する車両の番号を設定します。トラックの識別番号などを任意の値で設定できます。 ・車種 「トレーラー」、「低床トレーラー」、「平ボディ」をプルダウンで設定できます。 ・積日、着日 搬入物の積日、搬入日の着日を設定できます。 ・入場、荷卸完了 搬入時刻、荷卸の完了時刻を設定できます。 ・運送会社 基幹システム内の「運送会社」マスタに登録された業者から選択します。 ※ この項目に登録されることで、WEB出荷管理システムから荷姿票情報にアクセスできるようになります。 (項目設定　基幹システム：運送業者マスタ &gt; 名称) ・車番、運転手、運転手連絡先 [配送業者がWEB工程表から記入]します。 (項目設定　WEB出荷管理システム：車両マスタ、運転手マスタ &gt; 車両番号、氏名、運転手 電話番号) ○配送業者が再委託した場合 | . 品質管理システム：荷姿票 &gt; 荷姿票一覧 &gt; 閲覧で、外部委託会社が赤文字で表記されます。 ○配送業者が登録した情報は、基幹システム：運転手/車両マスタから確認できます。(再委託先は登録されません) | . ・ 積最大幅(mm)、積最大長さ(mm)、積最大高さ(mm)、積載重量(t)(数字、単位自動入力) トラックの荷台の最大幅(mm)、最大長さ(mm)、最大高さ(mm)、積載重量(t)を設定できます。(単位自動入力) 荷姿図 荷物をどう積載するか図面に書き込みます。 ＜手書き画面の仕様＞ 車両の天面図、側面図のテンプレート上に描画することができます。 1. [製品番号]欄に積載する製品の登録をします。(製品番号のテキストが荷姿図に自動挿入されるため、作図、荷姿票の複製で作業を簡略化できます。) 2. 荷姿図欄を選択します。 3. 図面書き込み画面に遷移します。 ツール | . ＜描画する＞ ○矩形、円形：ドラッグ&amp;ドロップで矩形、円を描くことができます。 ○テキスト：図面上で選択するとテキストボックスが生成されます。 　・編集を終了：Enter 　・改行：Shift + Enter 　・テキストを再編集：テキストをダブルクリック ○ペン、マーカー：フリーハンドで描画することができます。右クリックで太さ、色の選択ができます。 ＜描画部分の削除＞ 消しゴム：右クリックで太さを選択できます。 ＜図形、テキストの操作＞ ○選択：図形、テキストを選択すると水色の枠で囲まれまれてオブジェクトが選択状態になり(複数選択可)、この状態で移動、回転、変形が可能です。 ○重ね合わせ：選択しているオブジェクトの階層を変更することができます。 ・前面へ：一つ上げる ・最前面へ：最前面へ上げる ・背面へ：一つ下げる ・最背面へ：最背面へ下げる ＜お気に入り＞ 選択状態になっているオブジェクトをお気に入りに保存、お気に入りに保存したセットの呼び出し・削除ができます。 ＜画面の操作＞ ○虫眼鏡：拡大、縮小、拡大率のリセットができます。 ○手のひら：図面の表示範囲の移動ができます。 ＜保存＞ 保存、戻るボタン、図面の切り替えで手書き内容を保存できます。 長時間別のアプリを使用する、iPadをスリープする等の場合には保存をしてください。 複数人で同時に同じ図面に書き込むと、最後に保存した内容しか保存されません。 製品情報 | . (項目設定　基幹システム：製品マスタ &gt; 製品番号) (ステータス参照　品質管理システム：作業フローマスタ &gt; [部位] &gt; [工程] &gt; 完了時のステータス) 1. [製品番号]欄を選択します。 2. [荷姿票]に[物件]が登録されている場合、物件に登録している製品一覧が表示されます。または[製品選択]画面で階数、型枠番号、部位、製造ライン条件で製品番号を絞り込むと検索結果が表示されます。 3. 製品のチェックボックスを選択します。 4. 荷姿票の[製品番号]欄に製品が追加されます。 チェックボックスのチェックを外すと荷姿票から製品が削除されます。 5. 製品が追加されると、自動で荷姿図にも製品名が転記されます。製品を登録解除すると荷姿図の製品名も削除されます。 出荷検査済、他の車両に積載済みの製品は選択できません。 ※ 出荷検査の工程がある場合、製品のステータスが[出荷検査完了]になると製品欄の表示が灰色になります。 . | トラック追加 「トラック追加」を選択すると、車両情報、荷姿図、製品情報欄が追加されます。 . | トラックの削除 製品番号欄の右の「…」から「削除」を選択すると、トラックの車両情報、荷姿図、製品情報が削除されます。 . | . ",
     "url": "/docs/shipment-control/manufacture-company/Item-details/",
     
     "relUrl": "/docs/shipment-control/manufacture-company/Item-details/"
-  },"13": {
+  },"7": {
     "doc": "荷姿票を複製",
     "title": "荷姿票を複製する",
     "content": "作成された荷姿票を同じ荷姿図の内容で複製します。 . | [荷姿票一覧]画面から複製したい荷姿票の「閲覧」を選択します。 . | . | 「複製」を選択します。 . | . | ポップアップウィンドウの記入欄に複製後の階数を入力します。 . | . | 製品情報、荷姿図の製品番号が複製する階数に置き換わった状態で荷姿票が複製されます。 対応する複製可能な製品がない場合は置き換えはスキップされます。 . | . | . | . | 複製可能な製品の命名規則について . 製品番号を先頭から確認した際に、最初に出てきた数字を階数と見なします。その他項目の違いによる複製の可・不可は下記の表をご参考ください。 . 例）1階→2階 への複製 . | . | . | . |   | [数字]〇〇 | 〇〇[数字] | 〇〇-[数字] | 数字のみ | 部位が異なる | 型枠番号が異なる | 製造ラインが異なる | 物件が異なる | ステータスが異なる | 階数と関連性のない数字 | . | 複製前 | 1a | b1 | C材-1 | 1001 | 1d | 1e | 1f | 1g | 1h | 3i | . | 複製後 | 2a | b2 | C材-2 | 2001 | 2d | (複製失敗) | 2f | (複製失敗) | 2h | (複製失敗、テキストのみ複製) | . ※ 1E-1{(数字)E±(数字)}などはエクセルデータインポートの際に指数(Exponent)として認識されてしまうため避けてください。 . ",
     "url": "/docs/shipment-control/manufacture-company/reproduction-packing/#%E8%8D%B7%E5%A7%BF%E7%A5%A8%E3%82%92%E8%A4%87%E8%A3%BD%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/shipment-control/manufacture-company/reproduction-packing/#荷姿票を複製する"
-  },"14": {
+  },"8": {
     "doc": "荷姿票を複製",
     "title": "荷姿票を複製",
     "content": " ",
     "url": "/docs/shipment-control/manufacture-company/reproduction-packing/",
     
     "relUrl": "/docs/shipment-control/manufacture-company/reproduction-packing/"
-  },"15": {
+  },"9": {
     "doc": "荷姿票を作成",
     "title": "荷姿票を作成する",
     "content": ". | 荷姿票の作成 . | 「品質管理システム」トップ画面から「荷姿票」を選択します。 . | . | [荷姿票一覧]画面から「新規追加」を選択します。 . | . | [荷姿票編集]画面で荷姿票の形式に沿って項目を記入します。各項目欄を選択すると内容を編集できます。 . | . | . 記入例 . | . 印刷レイアウト . | . | . | 荷姿票の削除 | . [荷姿票一覧]から削除したい荷姿票の「閲覧」を選択します。画面右上の「…」ボタンから削除します。 . ",
     "url": "/docs/shipment-control/manufacture-company/creat-packing/#%E8%8D%B7%E5%A7%BF%E7%A5%A8%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/shipment-control/manufacture-company/creat-packing/#荷姿票を作成する"
-  },"16": {
+  },"10": {
     "doc": "荷姿票を作成",
     "title": "荷姿票を作成",
     "content": " ",
     "url": "/docs/shipment-control/manufacture-company/creat-packing/",
     
     "relUrl": "/docs/shipment-control/manufacture-company/creat-packing/"
-  },"17": {
+  },"11": {
     "doc": "機能：製造会社向け",
     "title": "機能：製造会社向け",
     "content": "出荷管理：製造会社様向けの機能一覧となります。 . ",
     "url": "/docs/shipment-control/manufacture-company/",
     
     "relUrl": "/docs/shipment-control/manufacture-company/"
-  },"18": {
+  },"12": {
     "doc": "出荷管理",
     "title": "出荷管理",
     "content": "フロー図 . ",
     "url": "/docs/shipment-control/",
     
     "relUrl": "/docs/shipment-control/"
-  },"19": {
-    "doc": "休日マスタ設定",
-    "title": "休日マスタ設定",
-    "content": ". | 「基幹システム」トップ画面の[マスタ設定]から「休日設定」を選択します。 . | . | 年表記の左右のボタンを選択して、休日設定したい年度を表示します。 . | . | 日付をクリックすることで、稼働日（白）と休日（赤）の設定をすることができます。 . | 休日マスタの設定がweb工程表、コンクリート品質管理に反映されます。 . | . ",
-    "url": "/docs/concrete-control/pre-configuration/registration-holiday/",
-    
-    "relUrl": "/docs/concrete-control/pre-configuration/registration-holiday/"
-  },"20": {
-    "doc": "製品登録",
-    "title": "製品登録",
-    "content": "コンクリート品質管理をする上で必要な情報を「製品マスタ」に登録します。 . | 製品マスタの登録を参考に製品情報を編集します。 . 製品情報の編集画面に移動します。 基幹システム：製品 &gt; 製品一覧(情報追加したい製品を選択) &gt; 編集 または項目内容を更新するエクセルファイルを開きます。 . | 以下の項目を追記します。 . | 配合1（複数の配合を含む製品の場合、配合2も記入） CSV出力をする際に、打設日を元にコンクリート品質検査をした配合と製品が紐づけられます。 | . | . | . | . ※ [配合]項目は㎥1、2を元に自動計算される項目のため入力しないでください。 . ",
-    "url": "/docs/concrete-control/pre-configuration/registration-product/",
-    
-    "relUrl": "/docs/concrete-control/pre-configuration/registration-product/"
-  },"21": {
-    "doc": "コンクリート強度の表示設定",
-    "title": "コンクリート強度の表示設定",
-    "content": "[コンクリート強度一覧]画面の[表示]チェックボックスにチェックを入れた項目が、[コンクリート品質検査]画面で表示されるようになります。（最大11件） . | . | . ",
-    "url": "/docs/concrete-control/pre-configuration/display-concrete/",
-    
-    "relUrl": "/docs/concrete-control/pre-configuration/display-concrete/"
-  },"22": {
-    "doc": "コンクリート強度マスタの登録",
-    "title": "コンクリート強度マスタの登録",
-    "content": ". | 「品質管理システム」トップ画面から「コンクリート強度マスタ」を選択します。 . | . | [コンクリート強度一覧]画面から「新規追加」を選択します。 . | . | コンクリート強度の情報を入力し「確定」ボタンをクリックします。 検査許容値は、コンクリート品質検査時の判定に使用されます。 | . | 設定項目 | 検査 | 検査項目 | . | 脱型時（製品同一養生） | 脱型強度 | 圧縮強度 | . | 材齢7日（製品同一養生） | 出荷強度 | 圧縮強度 | . | 材齢28日（製品同一養生） | 品質基準強度 | 圧縮強度 | . | 材齢28日（標準養生） | 調合管理強度 | 圧縮強度 | . | スランプ（cm） | フレッシュコンクリート |   | . | スランプフロー | フレッシュコンクリート |   | . | 塩化物量（kg/㎥） | フレッシュコンクリート |   | . | コンクリート温度 | フレッシュコンクリート |   | . | 空気量（%） | フレッシュコンクリート |   | . | コンクリート品質検査時、製品登録時（配合項目）に項目を選択できるようになります。 | . ",
-    "url": "/docs/concrete-control/pre-configuration/registration-concrete/",
-    
-    "relUrl": "/docs/concrete-control/pre-configuration/registration-concrete/"
-  },"23": {
-    "doc": "事前設定",
-    "title": "事前設定",
-    "content": "コンクリート品質管理を行うために必要な事前設定一覧となります。 . ",
-    "url": "/docs/concrete-control/pre-configuration/",
-    
-    "relUrl": "/docs/concrete-control/pre-configuration/"
-  },"24": {
-    "doc": "脱型強度検査",
-    "title": "脱型強度検査をする",
-    "content": "コンクリート受入日（フレッシュコンクリート検査日）の翌日（休日の場合は翌稼働日）に脱型強度検査を行います。 . | コンクリート強度を選択します。 . | . | 下の表から「脱型強度」を選択します。 . | . | 検査項目を入力します。 . | . | 検査結果が「OK」か「NG」かを選択します。 . | 「確定」を選択します。 . | カレンダーのフレッシュコンクリート検査日と下の表の脱型強度の欄が緑色に変わります。 . | . | . 同様に出荷強度検査、品質基準強度検査、調合管理強度検査を行います。 各検査の日付はフレッシュコンクリート検査画面からも確認できます。 . ",
-    "url": "/docs/concrete-control/function/demolding-inspection/#%E8%84%B1%E5%9E%8B%E5%BC%B7%E5%BA%A6%E6%A4%9C%E6%9F%BB%E3%82%92%E3%81%99%E3%82%8B",
-    
-    "relUrl": "/docs/concrete-control/function/demolding-inspection/#脱型強度検査をする"
-  },"25": {
-    "doc": "脱型強度検査",
-    "title": "脱型強度検査",
-    "content": " ",
-    "url": "/docs/concrete-control/function/demolding-inspection/",
-    
-    "relUrl": "/docs/concrete-control/function/demolding-inspection/"
-  },"26": {
-    "doc": "再検査（脱型、出荷）",
-    "title": "再検査をする（脱型、出荷のみ）",
-    "content": ". | 検査画面内の「再検査」ボタンをクリックし、再検査日を入力します。 . | . | 「作成」ボタンをクリックすると、再検査用の検査項目が作成されます。 . | . 再検査項目は「…」ボタンから削除することが可能です。 . | . | . ",
-    "url": "/docs/concrete-control/function/re-inspection/#%E5%86%8D%E6%A4%9C%E6%9F%BB%E3%82%92%E3%81%99%E3%82%8B%E8%84%B1%E5%9E%8B%E5%87%BA%E8%8D%B7%E3%81%AE%E3%81%BF",
-    
-    "relUrl": "/docs/concrete-control/function/re-inspection/#再検査をする脱型出荷のみ"
-  },"27": {
-    "doc": "再検査（脱型、出荷）",
-    "title": "再検査（脱型、出荷）",
-    "content": " ",
-    "url": "/docs/concrete-control/function/re-inspection/",
-    
-    "relUrl": "/docs/concrete-control/function/re-inspection/"
-  },"28": {
-    "doc": "写真登録（iPad）",
-    "title": "写真登録をする（iPad）",
-    "content": ". | 各検査項目入力画面内の「写真登録」、または[コンクリート品質検査]画面内の「備考」をタップします。 . | . | カメラアイコンをタップするとカメラが起動しますので、撮影し「写真を使用」をタップします。 . | . | 写真が登録されたことを確認し「撮影完了」にチェックをつけます。 . | . | . | 補足 . | . 各検査で画像を登録すると下の欄に表示されます。 . | . | . 写真撮影はiPadのみの機能です。 . ",
-    "url": "/docs/concrete-control/function/registration-photo/#%E5%86%99%E7%9C%9F%E7%99%BB%E9%8C%B2%E3%82%92%E3%81%99%E3%82%8Bipad",
-    
-    "relUrl": "/docs/concrete-control/function/registration-photo/#写真登録をするipad"
-  },"29": {
-    "doc": "写真登録（iPad）",
-    "title": "写真登録（iPad）",
-    "content": " ",
-    "url": "/docs/concrete-control/function/registration-photo/",
-    
-    "relUrl": "/docs/concrete-control/function/registration-photo/"
-  },"30": {
-    "doc": "フレッシュコンクリート検査",
-    "title": "フレッシュコンクリート検査をする",
-    "content": "コンクリート受入日にフレッシュコンクリート検査を行います。 . | コンクリート強度を選択します。 . | . | 画面左下の表の「フレッシュコンクリート」を選択します。 . | . | 検査項目を入力します。 . | . また、以降の検査の日付を [脱型強度検査日]、 [出荷強度検査日]、 [品質基準強度検査日]、 [調合管理強度検査日]項目で確認できます。 . | . メモ欄は各検査で共有されます。 . | 検査結果が「OK」か「NG」かを選択します。 . | . | 補足 . 「OK」 . | . 「NG」 . | . | . | 「確定」を選択します。 . | . | カレンダーと下の表のフレッシュコンクリートの欄が黄色に変わります。 . | . | . ",
-    "url": "/docs/concrete-control/function/fresh-inspection/#%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B3%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%88%E6%A4%9C%E6%9F%BB%E3%82%92%E3%81%99%E3%82%8B",
-    
-    "relUrl": "/docs/concrete-control/function/fresh-inspection/#フレッシュコンクリート検査をする"
-  },"31": {
-    "doc": "フレッシュコンクリート検査",
-    "title": "フレッシュコンクリート検査",
-    "content": " ",
-    "url": "/docs/concrete-control/function/fresh-inspection/",
-    
-    "relUrl": "/docs/concrete-control/function/fresh-inspection/"
-  },"32": {
-    "doc": "登録済の写真取込",
-    "title": "登録済の写真を取り込む",
-    "content": ". Windowsの場合 1. 登録した写真の右下の拡大表示アイコンをクリックします。 | . 2. 「フォト」アプリが起動します。画面上の「…」アイコンをクリックし、「名前を付けて保存」を選択します。 | . 3. 保存先を選択します。 iPadの場合 1. 登録した写真の右下の拡大表示アイコンをタップします。 | . 2. 画面右上の共有アイコンをタップします。 | . 3. “ファイル”に保存をタップします。 | . ",
-    "url": "/docs/concrete-control/function/import-photo/#%E7%99%BB%E9%8C%B2%E6%B8%88%E3%81%AE%E5%86%99%E7%9C%9F%E3%82%92%E5%8F%96%E3%82%8A%E8%BE%BC%E3%82%80",
-    
-    "relUrl": "/docs/concrete-control/function/import-photo/#登録済の写真を取り込む"
-  },"33": {
-    "doc": "登録済の写真取込",
-    "title": "登録済の写真取込",
-    "content": " ",
-    "url": "/docs/concrete-control/function/import-photo/",
-    
-    "relUrl": "/docs/concrete-control/function/import-photo/"
-  },"34": {
-    "doc": "CSV出力",
-    "title": "CSV出力する",
-    "content": "指定した期間に打設したコンクリート強度種の検査結果、及びそれに紐づく製品のデータを出力します。 . | [コンクリート品質検査]画面から「CSV出力」をクリックします。 . | . | 以下の項目から出力するデータを指定し「CSV出力」をクリックします。 . | コンクリート強度（必須） | 打設日（必須） | 物件名 | . | . | 指定した出力先に、CSVファイルが出力されます。 . ファイル名：コンクリート検査集計_[コンクリート強度]_[打設日] . コンクリート受入日と製品の打設完了予定日を照合し、[コンクリート強度略称]と製品の[配合1or2)]が一致する製品の[製品番号]、製品を使用する[物件名称]が表示されます。 . 一致例) コンクリート品質検査 受入日：6/1 コンクリート強度略称：高強度80-55 製品 打設完了予定日：6/1 配合1：高強度80-55 物件名称：〇〇工事 . | . ",
-    "url": "/docs/concrete-control/function/csv/#csv%E5%87%BA%E5%8A%9B%E3%81%99%E3%82%8B",
-    
-    "relUrl": "/docs/concrete-control/function/csv/#csv出力する"
-  },"35": {
-    "doc": "CSV出力",
-    "title": "CSV出力",
-    "content": " ",
-    "url": "/docs/concrete-control/function/csv/",
-    
-    "relUrl": "/docs/concrete-control/function/csv/"
-  },"36": {
-    "doc": "画面表示",
-    "title": "コンクリート品質検査画面を表示する",
-    "content": ". | 「品質管理システム」トップ画面から「コンクリート品質管理」を選択します。 . | . | [コンクリート品質管理]画面が表示されます。 . | . | . 各項目詳細 . | コンクリート強度 [コンクリート強度マスタ]で表示設定がされている項目のみ表示され、ここから強度を選択することができます。 . | 今日の日付 クリックすると、今日の日付に移動することができます。 . | 日付の切り替え 日付を切り替えることができます。 . | カレンダー 選択した日付から過去4週間分のカレンダーが表示されます。 デフォルトで今日の日付が選択されており、赤枠で表示されます(上図では10/6)。 . | 検査名・状況 選択日に行う検査名と検査状況が表示されます。 . | 備考 写真を登録することができます。 . | 確認 指定した日付から過去30日分の検査状況を表形式で確認することができます。 右上の「印刷」ボタンから表の印刷も可能です。 . | CSV出力 [コンクリート強度]、[打設日]、[物件名]を指定して、CSV出力することができます。 . | . | . ",
-    "url": "/docs/concrete-control/function/display/#%E3%82%B3%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%88%E5%93%81%E8%B3%AA%E6%A4%9C%E6%9F%BB%E7%94%BB%E9%9D%A2%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B",
-    
-    "relUrl": "/docs/concrete-control/function/display/#コンクリート品質検査画面を表示する"
-  },"37": {
-    "doc": "画面表示",
-    "title": "画面表示",
-    "content": " ",
-    "url": "/docs/concrete-control/function/display/",
-    
-    "relUrl": "/docs/concrete-control/function/display/"
-  },"38": {
-    "doc": "品質基準強度検査",
-    "title": "品質基準強度検査をする",
-    "content": "コンクリート受入日（フレッシュコンクリート検査日）の28日後（休日の場合は翌稼働日）に品質基準強度検査を行います。手順は脱型強度検査をご参考ください。 . ",
-    "url": "/docs/concrete-control/function/quality-inspection/#%E5%93%81%E8%B3%AA%E5%9F%BA%E6%BA%96%E5%BC%B7%E5%BA%A6%E6%A4%9C%E6%9F%BB%E3%82%92%E3%81%99%E3%82%8B",
-    
-    "relUrl": "/docs/concrete-control/function/quality-inspection/#品質基準強度検査をする"
-  },"39": {
-    "doc": "品質基準強度検査",
-    "title": "品質基準強度検査",
-    "content": " ",
-    "url": "/docs/concrete-control/function/quality-inspection/",
-    
-    "relUrl": "/docs/concrete-control/function/quality-inspection/"
-  },"40": {
-    "doc": "出荷強度検査",
-    "title": "出荷強度検査をする",
-    "content": "コンクリート受入日（フレッシュコンクリート検査日）の7日後（休日の場合は翌稼働日）に出荷強度検査を行います。手順は脱型強度検査をご参考ください。 . ",
-    "url": "/docs/concrete-control/function/shipping-inspection/#%E5%87%BA%E8%8D%B7%E5%BC%B7%E5%BA%A6%E6%A4%9C%E6%9F%BB%E3%82%92%E3%81%99%E3%82%8B",
-    
-    "relUrl": "/docs/concrete-control/function/shipping-inspection/#出荷強度検査をする"
-  },"41": {
-    "doc": "出荷強度検査",
-    "title": "出荷強度検査",
-    "content": " ",
-    "url": "/docs/concrete-control/function/shipping-inspection/",
-    
-    "relUrl": "/docs/concrete-control/function/shipping-inspection/"
-  },"42": {
-    "doc": "調合管理強度検査",
-    "title": "調合管理強度検査をする",
-    "content": "コンクリート受入日（フレッシュコンクリート検査日）の28日後（休日の場合は翌稼働日）に調合管理強度検査を行います。手順は脱型強度検査をご参考ください。 . ",
-    "url": "/docs/concrete-control/function/compounding-inspection/#%E8%AA%BF%E5%90%88%E7%AE%A1%E7%90%86%E5%BC%B7%E5%BA%A6%E6%A4%9C%E6%9F%BB%E3%82%92%E3%81%99%E3%82%8B",
-    
-    "relUrl": "/docs/concrete-control/function/compounding-inspection/#調合管理強度検査をする"
-  },"43": {
-    "doc": "調合管理強度検査",
-    "title": "調合管理強度検査",
-    "content": " ",
-    "url": "/docs/concrete-control/function/compounding-inspection/",
-    
-    "relUrl": "/docs/concrete-control/function/compounding-inspection/"
-  },"44": {
-    "doc": "機能",
-    "title": "機能",
-    "content": "コンクリート品質管理の機能一覧となります。 . ",
-    "url": "/docs/concrete-control/function/",
-    
-    "relUrl": "/docs/concrete-control/function/"
-  },"45": {
-    "doc": "コンクリート品質管理",
-    "title": "コンクリート品質管理",
-    "content": "フロー図 . | . 画面概要 . | 休日は赤文字で表示されます。 | カレンダーには選択中のコンクリート強度の検査状況が表示されます。 | 各日で受け入れたコンクリートの最新の検査状況が色別で表示されます。 . 黄：フレッシュコンクリート検査済 . 緑：脱型強度検査OKまたはNG(再検査中の場合、色変更されません) . 青：出荷検査OKまたはNG(再検査中の場合、色変更されません) . 紫：品質基準検査済 . 赤：調合管理検査済 . | 検査項目に注意点がある場合以下のアイコンが表示されます。 . | 「！」アイコン：検査項目に検査許容値外の値または空欄がある | 「カメラ」アイコン（青）： 写真未登録、写真登録が必要 | 「カメラ」アイコン（赤）：写真撮影未完了 | . | . 例）コンクリート強度：test強度、日付：6/29を選択 . | . | . ",
-    "url": "/docs/concrete-control/",
-    
-    "relUrl": "/docs/concrete-control/"
-  },"46": {
+  },"13": {
     "doc": "項目内容の更新（再インポート）",
     "title": "項目内容の更新(エクセルデータの再インポート)",
     "content": "物件コード、部位コード、製品番号が全て同じ場合に同一製品と判定しているため、上記の３項目を編集した行は新規データとして登録されます。 . | 既に登録した製品のエクセルデータを開き、更新したい項目を編集し保存します。 . | . | 「基幹システム」トップ画面の[マスタ設定]から「製品」マスタを選択して、[製品一覧]画面から「エクセル一括インポート」を選択します。 . | インポートするファイルを選択して、「開く」を選択します。 . | インポート順の指定を参考に設定を行い、「インポート」を選択します。 . | 「OK」を選択し、登録したい製品データの最左列に[更新]と表示されていることを確認します。 確認ができたら「インポート」を選択して完了です。 . | . | . ",
     "url": "/docs/product-registration/reimport-product/#%E9%A0%85%E7%9B%AE%E5%86%85%E5%AE%B9%E3%81%AE%E6%9B%B4%E6%96%B0%E3%82%A8%E3%82%AF%E3%82%BB%E3%83%AB%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%86%8D%E3%82%A4%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%88",
     
     "relUrl": "/docs/product-registration/reimport-product/#項目内容の更新エクセルデータの再インポート"
-  },"47": {
+  },"14": {
     "doc": "項目内容の更新（再インポート）",
     "title": "項目内容の更新（再インポート）",
     "content": " ",
     "url": "/docs/product-registration/reimport-product/",
     
     "relUrl": "/docs/product-registration/reimport-product/"
-  },"48": {
+  },"15": {
     "doc": "製造ラインステータス設定",
     "title": "製造ラインステータス設定",
     "content": ". | 「基幹システム」トップ画面の[マスタ設定]から「製造ラインステータス」を選択します。 . | . | [製造ラインステータス一覧]画面から右上の「新規」を選択します。 . | . | [ステータス名]と[カラーコード]を入力します。 . | . ※[カラーコード]は手入力するか、入力欄の右にあるボタンから任意の色を設定します。 . | . | . | 「保存」ボタンを選択します。 . | . | 「製造ラインステータス一覧」画面にステータスが登録されます。 . | . | . 同様に他の項目をマスタ設定します。 . ",
     "url": "/docs/product-registration/preparation-product/registration-status/",
     
     "relUrl": "/docs/product-registration/preparation-product/registration-status/"
-  },"49": {
+  },"16": {
     "doc": "物件マスタ設定",
     "title": "物件マスタ設定",
     "content": ". | 「基幹システム」トップ画面の[マスタ設定]から「物件」マスタを選択します。 . | . | [物件一覧]画面から「新規」を選択します。 . | . | [物件名称]、[物件コード]を入力して、「登録」ボタンを選択します。 . 入力欄が黄色になっている項目は登録時に入力必須の項目になります。 . | . | 物件一覧に物件が登録されます。 . 製品登録時に選択したり、検索時に物件名称、物件コードを使用することができるようになります。 . | . | . ",
     "url": "/docs/product-registration/preparation-product/registration-property/",
     
     "relUrl": "/docs/product-registration/preparation-product/registration-property/"
-  },"50": {
+  },"17": {
     "doc": "事前設定",
     "title": "事前設定",
     "content": ". | . 製品マスタをシステムにインポートする前に、各マスタに項目内容を設定する(後述)必要があります。 製品マスタの項目と関連するマスタ、入力必須項目は以下の表をご参照ください。 . ",
     "url": "/docs/product-registration/preparation-product/",
     
     "relUrl": "/docs/product-registration/preparation-product/"
-  },"51": {
+  },"18": {
     "doc": "製品マスタ画面他機能",
     "title": "製品マスタ画面他機能",
     "content": "| . ヘッダー詳細 . | 検索、クリア . 検索条件欄で[物件]、[部位]を選択(マスタの事前設定が必要)、[製品番号]を入力後「検索」を選択すると該当する製品が絞り込まれます。「クリア」を選択すると絞り込みが解除されます。 . | 新規 . 未記入の行が追加されます。絞り込みをしている場合は、「クリア」を選択すると追加された行が表示されます。 . | 複製 . 複製したい製品の行を選択し背景が青い状態で「複製」を選択すると、同内容の製品が追加されます。絞り込みをしている場合は、再度「検索」か「クリア」をすると追加された製品が表示されます。 . | 削除 . 削除したい製品([状態]項目が0)を選択して「削除」を選択すると、最右列の[状態]が0から1になります。削除した製品は、製品一覧の検索結果や各システムの参照対象から除外されます。データそのものは削除されません。 . | 復帰 . 復帰したい製品([状態]項目が1)を選択して「復帰」を選択すると、最右列の[状態]が1から0になります。復帰した製品は、再び各システムから製品情報が参照されるようになります。 . | 履歴 . 過去の変更履歴(直接編集、新規、複製、削除、復帰、インポート 等)を確認できます。 . | . 項目 . | 状態 . 削除されていない　→　 0　(「削除」が使用できる) 削除されている　　→ 1　(「復帰」が使用できる) . | . ",
     "url": "/docs/product-registration/other-product/",
     
     "relUrl": "/docs/product-registration/other-product/"
-  },"52": {
+  },"19": {
     "doc": "製品マスタをexcelからインポート",
     "title": "製品マスタをexcelからインポートする",
     "content": ". | 下記リンクから、製品データを入力するエクセルファイルをダウンロードします。 Excelファイルダウンロード . | . | エクセルファイルのフォーマットに沿ってマスタで事前設定した値、あるいは任意の値を入力します。 . | . | エクセルファイルを読み込みます。「基幹システム」トップ画面の[マスタ設定]から「製品」マスタを選択して、[製品一覧]画面から「エクセル一括インポート」を選択します。 . | . | . | インポートするファイルを選択して、「開く」を選択します。 . | 「インポート順の設定」ウインドウで設定を確認して「インポート」を選択します。 二回目以降は設定が記憶されるため、設定を変更せずインポートしてください。 . エクセルファイルの一行目の名称は変更しないでください。 . 【初回】 ① 1/xxx ② 「フィールド名として使用」 ③ 「照合名順」 . 【二回目以降の表示】 ① 2/xxx ② 「データ」 ③ 「照合名順」 . | . | 次のウインドウで「OK」を選択して、登録したい製品データの最左列に[新規]と表示されていることを確認します。 内容に問題がなければ「インポート」を選択して、製品マスタへのインポートを完了します。 . | . | [製品一覧]画面に製品情報が登録されます。 . | . | . ",
     "url": "/docs/product-registration/import-product/#%E8%A3%BD%E5%93%81%E3%83%9E%E3%82%B9%E3%82%BF%E3%82%92excel%E3%81%8B%E3%82%89%E3%82%A4%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%88%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/product-registration/import-product/#製品マスタをexcelからインポートする"
-  },"53": {
+  },"20": {
     "doc": "製品マスタをexcelからインポート",
     "title": "製品マスタをexcelからインポート",
     "content": " ",
     "url": "/docs/product-registration/import-product/",
     
     "relUrl": "/docs/product-registration/import-product/"
-  },"54": {
+  },"21": {
     "doc": "製品情報の変更",
     "title": "製品情報を変更する",
     "content": ". | 「基幹システム」トップ画面の「製品」マスタを選択し、[製品一覧]画面を開きます。 変更したい製品を物件、部位で絞り込み、あるいは製品番号を入力して「検索」します。 . | . | 変更したい項目欄を選択して入力します。 . | . | . ",
     "url": "/docs/product-registration/edit-product/#%E8%A3%BD%E5%93%81%E6%83%85%E5%A0%B1%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/product-registration/edit-product/#製品情報を変更する"
-  },"55": {
+  },"22": {
     "doc": "製品情報の変更",
     "title": "製品情報の変更",
     "content": " ",
     "url": "/docs/product-registration/edit-product/",
     
     "relUrl": "/docs/product-registration/edit-product/"
-  },"56": {
+  },"23": {
     "doc": "製品マスタの登録",
     "title": "製品マスタの登録",
     "content": "工程管理、品質管理、出荷管理、コンクリート品質管理を行うためには、製品や関連する物件などの基礎情報を事前に登録する必要があります。このようなシステム全体で共通する情報のことをマスタデータ（以下「マスタ」）と言います。 . | フロー図 | . | . ",
     "url": "/docs/product-registration/",
     
     "relUrl": "/docs/product-registration/"
-  },"57": {
+  },"24": {
     "doc": "従業員区分登録",
     "title": "従業員区分登録",
     "content": "所属会社や雇用形態を登録します。 . | 「基幹システム」トップ画面の[マスタ設定]から「従業員区分」マスタを選択します。 . | . | [従業員区分一覧]画面から「新規」を選択します。 . | . | [コード]、[名称]を入力し、「登録」ボタンを選択します。 . | . | 従業員一覧に従業員が登録されます。 . | . ",
     "url": "/docs/employee-registration/classification/",
     
     "relUrl": "/docs/employee-registration/classification/"
-  },"58": {
+  },"25": {
     "doc": "従業員登録",
     "title": "従業員登録",
     "content": "所属会社や雇用形態を登録します。 . 事前に「従業員区分」の設定が必要です。 . | 「基幹システム」トップ画面の[マスタ設定]から「従業員」マスタを選択します。 . | . | [従業員一覧]画面から「新規」を選択します。 . | . | 必要項目を入力し、「登録」ボタンを選択します。入力欄が黄色になっている項目は登録時に入力必須の項目になります。 . | . | アクセス権 . | 管理者：ほぼ全ての項目を編集できます。 | 製造管理者：主に基幹システムのマスタデータ以外の項目を編集できます。 | 一般：主に業務に必要な項目のみ閲覧または編集できます。 | . | . アクセス権の差異についての詳細は以下画像をご参照ください。 空欄：編集可　△：編集不可　×：閲覧不可 . | . | . | 従業員一覧に従業員が登録されます。 . | . ",
     "url": "/docs/employee-registration/employee/",
     
     "relUrl": "/docs/employee-registration/employee/"
-  },"59": {
+  },"26": {
     "doc": "従業員の登録",
     "title": "従業員の登録",
     "content": "各システムにログインするためには、事前に従業員情報を登録する必要があります。 . ",
     "url": "/docs/employee-registration/",
     
     "relUrl": "/docs/employee-registration/"
-  },"60": {
+  },"27": {
     "doc": "iPadセットアップ手順",
     "title": "iPadセットアップ手順",
     "content": " ",
     "url": "/docs/ipad-setup/",
     
     "relUrl": "/docs/ipad-setup/"
-  },"61": {
+  },"28": {
     "doc": "iPadセットアップ手順",
     "title": "目次",
     "content": ". | FileMaker Goのインストール（インストール済みの方は不要） | FileMakerServerへ接続するショートカットを作成する | . ",
     "url": "/docs/ipad-setup/#%E7%9B%AE%E6%AC%A1",
     
     "relUrl": "/docs/ipad-setup/#目次"
-  },"62": {
+  },"29": {
     "doc": "iPadセットアップ手順",
     "title": "FileMaker Goのインストール（インストール済みの方は不要）",
     "content": ". | AppStoreアプリを起動します。 . | . | 検索機能を使い、「FileMaker」で検索します。 . | . | 検索結果から「FileMaker Go 2024」のページを開き、ダウンロードします。 . | . | ダウンロードが完了したら、FileMaker Goを起動します。 . | . | 起動できればインストール終了です。 . | . ",
     "url": "/docs/ipad-setup/#filemaker-go%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%B8%88%E3%81%BF%E3%81%AE%E6%96%B9%E3%81%AF%E4%B8%8D%E8%A6%81",
     
     "relUrl": "/docs/ipad-setup/#filemaker-goのインストールインストール済みの方は不要"
-  },"63": {
+  },"30": {
     "doc": "iPadセットアップ手順",
     "title": "FileMakerServerへ接続するショートカットを作成する",
     "content": ". | ホーム画面にすでにショートカットのアイコンがある場合は、ショートカットを削除してください。 アイコンの削除方法の参考リンク：https://www.softbank.jp/support/faq/view/11900 . | . | 「Safari」アプリを開いて、別途お送りしているリンクを開きます。 . | . | ダイアログが表示されたら、[キャンセル]をタップします。 . | . | 真っ白なページが表示されます。 右上の共有ボタンをタップして、[ホーム画面に追加]をタップします。 . | . | [追加]をタップして保存します。 . | . | ホーム画面に アイコンが追加されればOKです。 . | . | 1~5の手順を[品質管理システム]、[基幹システム]の二つで行ないます。 . | ホーム画面に追加されたアイコンをそれぞれタップし、システムが起動できればこの手順は終了です。 . | . ",
     "url": "/docs/ipad-setup/#filemakerserver%E3%81%B8%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/ipad-setup/#filemakerserverへ接続するショートカットを作成する"
-  },"64": {
-    "doc": "休日設定マスタ",
-    "title": "休日設定マスタ",
-    "content": ". | 「基幹システム」トップ画面の[マスタ設定]から「休日設定」を選択します。 . | . | 年表記の左右のボタンを選択して、休日設定したい年度を表示します。 . | . | 日付をクリックすることで、稼働日（白）と休日（赤）の設定をすることができます。 . | 休日マスタの設定がweb工程表、コンクリート品質管理に反映されます。 . | . ",
-    "url": "/docs/process-control/pre-configuration/registration-holiday/",
-    
-    "relUrl": "/docs/process-control/pre-configuration/registration-holiday/"
-  },"65": {
-    "doc": "製品登録(情報追加)",
-    "title": "製品登録(情報追加)",
-    "content": "WEB工程表を作る上で必要な情報を製品マスタに追加します。 . | 製品マスタの登録を参考に製品情報を編集します。 　製品情報の編集画面に移動します。 　基幹システム：製品 &gt; 製品一覧(情報追加したい製品を選択) &gt; 編集 　または[項目内容を更新する]エクセルファイルを開きます。 . | 以下の項目を追記します。 . | 立米1(または㎥１：打設量) . | 配合1(複数の配合を含む製品の場合、立米2(㎥2)と配合2も記入) . | . | . | . | . [㎥]、[配合]項目は㎥1、2と配合1、2を元に自動計算される項目のため入力しないでください。 . ",
-    "url": "/docs/process-control/pre-configuration/registration-product/",
-    
-    "relUrl": "/docs/process-control/pre-configuration/registration-product/"
-  },"66": {
-    "doc": "物件登録(情報追加)",
-    "title": "物件登録（情報追加）",
-    "content": "WEB工程表を作る上で必要な情報を物件マスタに追加します。 . | 物件情報の編集画面に移動します。 基幹システム：物件 &gt; 物件一覧(情報追加したい物件を選択) &gt; 編集 . | [物件に対する部位設定]項目で、[部位]を選択し、[目標人工/P]を設定します。 . | . | WEB工程表の部位項目に設定した目標人工が反映されます。 . | . | . ",
-    "url": "/docs/process-control/pre-configuration/registration-property/#%E7%89%A9%E4%BB%B6%E7%99%BB%E9%8C%B2%E6%83%85%E5%A0%B1%E8%BF%BD%E5%8A%A0",
-    
-    "relUrl": "/docs/process-control/pre-configuration/registration-property/#物件登録情報追加"
-  },"67": {
-    "doc": "物件登録(情報追加)",
-    "title": "物件登録(情報追加)",
-    "content": " ",
-    "url": "/docs/process-control/pre-configuration/registration-property/",
-    
-    "relUrl": "/docs/process-control/pre-configuration/registration-property/"
-  },"68": {
-    "doc": "事前設定",
-    "title": "事前設定",
-    "content": "工程管理を行うために必要な事前設定一覧となります。 . ",
-    "url": "/docs/process-control/pre-configuration/",
-    
-    "relUrl": "/docs/process-control/pre-configuration/"
-  },"69": {
-    "doc": "折りたたみ機能",
-    "title": "折りたたみ機能",
-    "content": ". | 表示させたくない物件、部位名の左側にある「−」マークをクリックすることで、それぞれの行を閉じることができます。 . | . | 再度表示させたい場合は、表示させたい物件、部位名の左側にある「＋」マークをクリックすることで、表示させることができます。 . | . | . ",
-    "url": "/docs/process-control/function/folding/",
-    
-    "relUrl": "/docs/process-control/function/folding/"
-  },"70": {
-    "doc": "選択日のみ日付を移動",
-    "title": "選択日のみ日付を移動",
-    "content": ". | 打設完了予定日を変更したい製品を、同じ行内の変更後の日付にドラッグ&amp;ドロップします。 . | . | 「選択日のみ調整」を選択し、確認表示が出たら「OK」を選択します。 . | . | . | 製品の打設完了予定日が変更されます。(手動で移動した製品は休日に割り振ることも可能です。) . | . | . ",
-    "url": "/docs/process-control/function/single-date-movement/",
-    
-    "relUrl": "/docs/process-control/function/single-date-movement/"
-  },"71": {
-    "doc": "選択日と以降の日付を移動",
-    "title": "選択日と以降の日付を移動",
-    "content": ". | 打設完了予定日を変更したい製品を、同じ行内の変更後の日付にドラッグ＆ドロップします。 . | . | 「選択日および以降の調整」を選択し、確認表示が出たら「OK」を選択します。 . | . | 製品の打設完了予定日が変更されます。他の製品の打設完了予定日と重なる・跨ぐ移動の場合、他の製品が製品間の製造ラインの空き日数を保持したまま移動します。 また、休日は空き日数の計算には含まれません。(手動で移動した製品は休日に割り振ることも可能です。) . | . | . ",
-    "url": "/docs/process-control/function/multiple-date-movement/",
-    
-    "relUrl": "/docs/process-control/function/multiple-date-movement/"
-  },"72": {
-    "doc": "備考の記入",
-    "title": "備考の記入",
-    "content": ". | コメントを書きたい日付の型枠番号行をクリックします。 . | . | 「備考」の項目に任意のコメントを入力します。 . | . | 「更新」をクリックします。 . | . | WEB工程表に入力したコメントが表示されます。 . | . | . ",
-    "url": "/docs/process-control/function/remarks/",
-    
-    "relUrl": "/docs/process-control/function/remarks/"
-  },"73": {
-    "doc": "項目での表示の並べ替え",
-    "title": "項目での表示の並べ替え",
-    "content": ". | 画面上部の「ライン別」・「物件別(部材別)」ボタンを選択します。 . | 表示順が反映されます。 . | . ライン別表示 . | . 物件別(部材毎)表示 . | . ",
-    "url": "/docs/process-control/function/sort/",
-    
-    "relUrl": "/docs/process-control/function/sort/"
-  },"74": {
-    "doc": "型枠の調整",
-    "title": "型枠の調整",
-    "content": ". | 型枠を調整したい製品を、変更後の型枠の行の日付にドラッグ&amp;ドロップします。 . | . | 「型枠の調整」を選択し、確認表示が出たら「OK」を選択します。 . | . | 製品の型枠、あるいはそれに加えて打設完了予定日が変更されます。 . | . | . ",
-    "url": "/docs/process-control/function/formwork-adjustment/",
-    
-    "relUrl": "/docs/process-control/function/formwork-adjustment/"
-  },"75": {
-    "doc": "表示する項目の絞り込み",
-    "title": "表示する項目の絞り込み",
-    "content": ". | 画面上部のプルダウンメニューから物件・製造ラインを選択します。 . | 絞り込み結果が表示されます。 . | . 製造ラインで絞り込み . | . 物件で絞り込み . | . 製造ラインと物件で絞り込み . | . ",
-    "url": "/docs/process-control/function/narrow-down/",
-    
-    "relUrl": "/docs/process-control/function/narrow-down/"
-  },"76": {
-    "doc": "ステータスの変更",
-    "title": "ステータスの変更",
-    "content": "基本的には製品の品質チェックを行う工程で（ステータス設定がされている場合）自動で変更されます。 . | 変更したいステータスをクリックします。 . | . | [ステータス]の項目で変更したいステータスを選択します。 . | . | 「更新」をクリックします。 . | . | WEB工程表に変更後のステータスが表示されます。 . | . | . ",
-    "url": "/docs/process-control/function/status/",
-    
-    "relUrl": "/docs/process-control/function/status/"
-  },"77": {
-    "doc": "出荷の記入",
-    "title": "出荷の記入",
-    "content": ". | コメントを書きたい日付の部位名行をクリックします。 . | . | 「出荷」の項目に任意のコメントを入力します。 . | . | 「更新」をクリックします。 . | . | WEB工程表に入力したコメントが表示されます。 . | . | . ",
-    "url": "/docs/process-control/function/shipping/",
-    
-    "relUrl": "/docs/process-control/function/shipping/"
-  },"78": {
-    "doc": "表示する期間の変更",
-    "title": "表示する期間の変更",
-    "content": ". | 画面上部の「月次」・「週次」ボタンを選択します。 . | . | 画面左上の&lt; &gt;ボタンか、「○○年○○月」・「〇〇年○月〇日の週」の表記部分を選択します。 . | 表示したい年月日を選択します。 . | 表示期間が反映されます。 . 月次：「○月」の1日〜末日表示 週次：「○日」の前後約二週間 . | . ",
-    "url": "/docs/process-control/function/period-change/",
-    
-    "relUrl": "/docs/process-control/function/period-change/"
-  },"79": {
-    "doc": "表示の拡大縮小",
-    "title": "表示の拡大縮小",
-    "content": "[WEB工程表]画面右上の🔍アイコンで画面の拡大縮小の変更が可能です。 . | . ",
-    "url": "/docs/process-control/function/scaling/",
-    
-    "relUrl": "/docs/process-control/function/scaling/"
-  },"80": {
-    "doc": "色付け対象の選択",
-    "title": "色付け対象の選択",
-    "content": ". | [WEB工程表]画面上右上の「≡」アイコンから色付け対象の選択ができます。 . | . | ステータスの文字背景に色をつけたくない場合は、色付けしたくないステータスの☑︎を外すことで背景色をなしにすることができます。 . | . | 再度色付けをしたい場合は、☑︎をつけることで背景に色付けが可能です。 . | . | . ※背景色の変更方法は「ステータス設定」を参照してください。 . ",
-    "url": "/docs/process-control/function/coloring-target/",
-    
-    "relUrl": "/docs/process-control/function/coloring-target/"
-  },"81": {
-    "doc": "WEB工程表へのアクセス",
-    "title": "WEB工程表へのアクセス",
-    "content": "WEB工程表へのアクセス方法は下記の３パターンがあります。 . パターン1「品質管理システムからアクセス」 . 品質管理システム：工程表（最下段左） . | . パターン2「基幹システムからアクセス」 . 基幹システム：製造&gt;製造ライン（WEB） . | . | . パターン3「URLからアクセス」 . 会社から指定されたURLで検索し、[コード]と[パスワード]を入力してWEB工程表にログインします。 （項目設定：基幹システム_従業員マスタ） . | . ",
-    "url": "/docs/process-control/function/login/",
-    
-    "relUrl": "/docs/process-control/function/login/"
-  },"82": {
-    "doc": "機能",
-    "title": "工程管理機能",
-    "content": "工程管理の各機能となります。 . ",
-    "url": "/docs/process-control/function/#%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E6%A9%9F%E8%83%BD",
-    
-    "relUrl": "/docs/process-control/function/#工程管理機能"
-  },"83": {
-    "doc": "機能",
-    "title": "機能",
-    "content": " ",
-    "url": "/docs/process-control/function/",
-    
-    "relUrl": "/docs/process-control/function/"
-  },"84": {
-    "doc": "工程管理",
-    "title": "工程管理",
-    "content": "画面概要 . | . 項目詳細 . |   | 詳細 | 過去の日付 | 参照元 | 備考 | . | 総打設数(P) | その日[表示期間]打設予定の製品の合計数 | 再計算しない | 基幹システム：製品 &gt; 打設完了予定日 |   | . | 総打設量(㎥) | その日[表示期間]打設予定の生産量の合計 | 再計算しない | 基幹システム：製品 &gt; ㎥ |   | . | 総型枠数(P) | 当月に打設する物件の部位毎の型枠の総数(打設完了したものは減算していく) | 再計算しない | 基幹システム：物件、部位、型枠 |   | . | 回転率 | 総打設数 / 総型枠数（小数点第1位まで） | 再計算しない |   |   | . | 計画人口合計(人工) | 物件の部位に設定されている目標人工 / Pの合計 | 再計算しない | 基幹システム：物件 &gt; 物件に対する部位設定 &gt; 目標人工 / P |   | . | 配置予定人工合計(人工) | 製造ライン毎の従業員(作業量)の総数 | 再計算しない | 基幹システム：従業員 &gt; 工程区分 |   | . | 実施人工合計(人工) | 組置人工数 + 打設人工数 | 常に再計算する | 基幹システム：作業日報 &gt; 製造ライン &gt; 打設、組置 |   | . | 差異(人工) | ■未来(当日も含む)・実施人工がある場合　実施人工 ー 計画人工・実施人工がない場合　配置予定人工 ー 計画人工■過去・実施人工がある場合　実施人工 ー 計画人工・実施人工がない場合　実施人工 ー 計画人工(実施人工が0のため、差異も0) | 常に再計算する |   | 計画人工合計から20%離れたら強調表示-n &lt; -20 &lt; 0 &lt; 20 &lt; n青&lt;薄青&lt;白&lt;薄赤&lt;赤 | . ",
-    "url": "/docs/process-control/",
-    
-    "relUrl": "/docs/process-control/"
-  },"85": {
+  },"31": {
     "doc": "ベース図面の共通描き込み",
     "title": "ベース図面に共通の描き込みをする",
     "content": "ベース図面に描き込んだ内容は、ベース図面を適用している製品の図面に共通で表示されます。 . 製品登録後にベース図面に描き込みを行った場合でも、描き込み内容は反映されます。 . | [品質管理システム]トップ画面から「ベース図面」を選択します。 . | . | [ベース図面一覧]画面で共通描き込みしたいベース図面の「詳細」をクリックします。 . | . | 描き込みを行いたいベース図面の「編集」をクリックします。 . | . | 共通描き込み画面が表示されます。 . | . | . ",
     "url": "/docs/drawing-registration/drawing/#%E3%83%99%E3%83%BC%E3%82%B9%E5%9B%B3%E9%9D%A2%E3%81%AB%E5%85%B1%E9%80%9A%E3%81%AE%E6%8F%8F%E3%81%8D%E8%BE%BC%E3%81%BF%E3%82%92%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/drawing-registration/drawing/#ベース図面に共通の描き込みをする"
-  },"86": {
+  },"32": {
     "doc": "ベース図面の共通描き込み",
     "title": "ツール",
     "content": "下記のツール以外の仕様は、個別描き込みと同じです。 . | 動的テキストボックス . [製品番号(部材名)]と[階数]を、製品に合わせて動的に表示する機能が使用できます。 . | テキストボックスで、テキストの色と太さを指定します。 . | . | テキストボックスに下表を参考に文字を記入すると、製品に合わせて動的に表示されます。 . | 表示する対象 | 記入する文字 | . | 製品番号 | %部材名% | . | 階数 | %階数% | . | . | . 道的テキストの前後に文字をすることも可能です。 例）%階数%階 →　3階 . | QRコード位置指定 . チェックリスト表示用のQRコードを表示する位置を指定することができます。 . | 選択ツールを使用してQRコードを選択し、移動やサイズ変更を行います。 . | . | . | . ベース図面に製品が１つも適用されていない場合は、[道的テキストボックス]と[QRコード位置指定]ツールは使用できません。 製品の登録を行ってから使用してください。 . 図面の印刷を行う場合は、一度、個別の図面手描き機能画面で保存しないと[動的テキスト]と[QRコード]は表示されません。 . ",
     "url": "/docs/drawing-registration/drawing/#%E3%83%84%E3%83%BC%E3%83%AB",
     
     "relUrl": "/docs/drawing-registration/drawing/#ツール"
-  },"87": {
+  },"33": {
     "doc": "ベース図面の共通描き込み",
     "title": "ベース図面の共通描き込み",
     "content": " ",
     "url": "/docs/drawing-registration/drawing/",
     
     "relUrl": "/docs/drawing-registration/drawing/"
-  },"88": {
+  },"34": {
     "doc": "物件マスタ登録",
     "title": "物件マスタ登録",
     "content": "物件マスタ登録は物件マスタの設定を参考に行ってください。 . ",
     "url": "/docs/drawing-registration/pre-configuration/registration-property/",
     
     "relUrl": "/docs/drawing-registration/pre-configuration/registration-property/"
-  },"89": {
+  },"35": {
     "doc": "事前設定",
     "title": "事前設定",
     "content": "ベース図面の登録を行うために必要な事前設定一覧となります。 . ",
     "url": "/docs/drawing-registration/pre-configuration/",
     
     "relUrl": "/docs/drawing-registration/pre-configuration/"
-  },"90": {
+  },"36": {
     "doc": "ベース図面の複製",
     "title": "ベース図面を複製する",
     "content": "ベース図面に登録している[図面]と[描き込み内容]を複製します。 . | [品質管理システム]トップ画面から「ベース図面」を選択します。 . | . | [ベース図面一覧]画面で複製したいベース図面の「詳細」をクリックします。 . | . | 複製したいベース図面の「複製」をクリックします。 . | . | 確認メッセージが表示されるので、「OK」をクリックしたら複製完了です。 . | . | 複製したベース図面は一覧の一番上に表示されます。 . | . | . ",
     "url": "/docs/drawing-registration/reproduction-drawing/#%E3%83%99%E3%83%BC%E3%82%B9%E5%9B%B3%E9%9D%A2%E3%82%92%E8%A4%87%E8%A3%BD%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/drawing-registration/reproduction-drawing/#ベース図面を複製する"
-  },"91": {
+  },"37": {
     "doc": "ベース図面の複製",
     "title": "ベース図面の複製",
     "content": " ",
     "url": "/docs/drawing-registration/reproduction-drawing/",
     
     "relUrl": "/docs/drawing-registration/reproduction-drawing/"
-  },"92": {
+  },"38": {
     "doc": "適用済製品差替",
     "title": "適用済のベース図面を差し替える",
     "content": "ベース図面の差替を行った後に、どの製品を差し替え対象とするか選択して登録します。 . この機能は同じ図面名称、図面番号のベース図面が複数ある場合のみ使用できます。 適用済製品差替機能を使うには、先にベース図面の複製を行ってください。 . | [品質管理システム]トップ画面から「ベース図面」を選択します。 . | . | [ベース図面一覧]画面で製品登録したいベース図面の「詳細」をクリックします。 . | . | 「製品」をクリックするとポップアップが表示されます。 . | . | 3パターンの製品登録方法が表示されます。「適用済製品差替」をクリックします。 . | . | [適用済製品一覧]に、同じ図面名称、図面番号のベース図面が登録されている製品の一覧が表示されます。 [適用済製品一覧]から、ベース図面を差し替えたい製品を選んで✔️をつけます。 . | . | 検索 [適用済製品一覧]を階数などの検索条件で絞り込むことが可能です。 | . | . | 「差替」をクリックで、✔️をつけた製品が登録対象の一覧に表示されます。 . | . 製品情報はこの画面上では変更できません。変更は製品情報の変更を参考に行ってください。 . | ステータス 2パターンのステータスがあります。 | . | . | ステータス | 登録可否 | 詳細 | . | 更新 | ○ | 既存の製品にベース図面を適用する | . | 重複 | × | 登録対象一覧に同じ製品番号のデータが複数ある | . | 削除 右端までスクロールすると「×」があるので、このボタンから削除が可能です。 全ての一覧を削除したい場合は、一度前画面に戻ることでリセットされます。 | . | . | 差し替えたい製品を一覧に追加したら、「登録」をクリックでベース図面を適用する製品の登録が完了します。 . | . 登録対象の一覧に[重複]ステータスのデータがある場合は登録できません。 . | . ",
     "url": "/docs/drawing-registration/registration-product/replacing-product/#%E9%81%A9%E7%94%A8%E6%B8%88%E3%81%AE%E3%83%99%E3%83%BC%E3%82%B9%E5%9B%B3%E9%9D%A2%E3%82%92%E5%B7%AE%E3%81%97%E6%9B%BF%E3%81%88%E3%82%8B",
     
     "relUrl": "/docs/drawing-registration/registration-product/replacing-product/#適用済のベース図面を差し替える"
-  },"93": {
+  },"39": {
     "doc": "適用済製品差替",
     "title": "適用済製品差替",
     "content": " ",
     "url": "/docs/drawing-registration/registration-product/replacing-product/",
     
     "relUrl": "/docs/drawing-registration/registration-product/replacing-product/"
-  },"94": {
+  },"40": {
     "doc": "水平コピー",
     "title": "製品の水平コピーをする",
     "content": "任意のベース図面を適用する製品番号を連番で登録します。 . 同じ図面名称、図面番号のベース図面がすでに登録されている製品は登録できません。 ベース図面の差し替えは適用済製品差替画面から行ってください。 . | [品質管理システム]トップ画面から「ベース図面」を選択します。 . | . | [ベース図面一覧]画面で製品登録したいベース図面の「詳細」をクリックします。 . | . | 「製品」をクリックするとポップアップが表示されます。 . | . | 3パターンの製品登録方法が表示されます。「水平コピー」をクリックします。 . | . | [水平コピー元製品入力]欄に、水平コピーしたい製品情報を入力します。(赤枠必須項目) . | . すでに存在する[製品番号][部位名称]をベース図面登録対象に追加する場合は、入力した内容ではなく既存製品情報が表示されます。 . | 「追加」をクリックで、設定した数量分の製品が複製されます。 製品番号は右に位置する数字が連番で生成されます。 . | . 製品情報はこの画面上で手動変更が可能です。 . | ステータス ４パターンのステータスがあります。 | . | . | ステータス | 登録可否 | 詳細 | . | 新規 | ○ | 製品を新規作成し、ベース図面を適用する | . | 更新 | ○ | 既存の製品にベース図面を適用する | . | 重複 | × | 登録対象一覧に同じ製品番号のデータが複数ある | . | 適用済 | × | すでに同じベース図面が登録されている | . | 削除 右端までスクロールすると「×」があるので、このボタンから削除が可能です。 全ての一覧を削除したい場合は、一度前画面に戻ることでリセットされます。 | . | . | 登録したい製品を一覧に追加したら、「登録」をクリックでベース図面を適用する製品の登録が完了します。 . | . 登録対象の一覧に[重複][適用済]ステータスのデータがある場合は登録できません。 . | . ",
     "url": "/docs/drawing-registration/registration-product/horizontal-product/#%E8%A3%BD%E5%93%81%E3%81%AE%E6%B0%B4%E5%B9%B3%E3%82%B3%E3%83%94%E3%83%BC%E3%82%92%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/drawing-registration/registration-product/horizontal-product/#製品の水平コピーをする"
-  },"95": {
+  },"41": {
     "doc": "水平コピー",
     "title": "水平コピー",
     "content": " ",
     "url": "/docs/drawing-registration/registration-product/horizontal-product/",
     
     "relUrl": "/docs/drawing-registration/registration-product/horizontal-product/"
-  },"96": {
+  },"42": {
     "doc": "上階コピー",
     "title": "製品を上階へコピーする",
     "content": "すでに同じベース図面が登録されている製品情報を複製し、階数のみ変更して登録します。 . 上階コピー時点で、複製元製品に個別の図面描き込みが行われていた場合は、その内容も複製されます。 . 同じ図面名称、図面番号のベース図面がすでに登録されている製品は登録できません。 ベース図面の差し替えは適用済製品差替画面から行ってください。 . | [品質管理システム]トップ画面から「ベース図面」を選択します。 . | . | [ベース図面一覧]画面で製品登録したいベース図面の「詳細」をクリックします。 . | . | 「製品」をクリックするとポップアップが表示されます。 . | . | 3パターンの製品登録方法が表示されます。「上階コピー」をクリックします。 . | . | [上階コピー元製品一覧]に、同じベース図面が登録されている製品一覧が複製元として表示されます。 登録する製品の階数を入力し、[上階コピー元製品一覧]から複製したい製品を選んで✔️をつけます。 . | . | 検索 [上階コピー元製品一覧]を階数などの検索条件で絞り込むことが可能です。 | . | . すでに存在する[製品番号][部位名称]をベース図面登録対象に追加する場合は、入力した内容ではなく既存製品情報が表示されます。 . | 「複製」をクリックで、指定した階数で[製品番号]と[階数]が変更された製品が表示されます。 . | . 製品情報はこの画面上で手動変更が可能です。 . | ステータス ４パターンのステータスがあります。 | . | . | ステータス | 登録可否 | 詳細 | . | 新規 | ○ | 製品を新規作成し、ベース図面を適用する | . | 更新 | ○ | 既存の製品にベース図面を適用する | . | 重複 | × | 登録対象一覧に同じ製品番号のデータが複数ある | . | 適用済 | × | すでに同じベース図面が登録されている | . | 削除 右端までスクロールすると「×」があるので、このボタンから削除が可能です。 全ての一覧を削除したい場合は、一度前画面に戻ることでリセットされます。 | . | . | 登録したい製品を一覧に追加したら、「登録」をクリックでベース図面を適用する製品の登録が完了します。 . | . 登録対象の一覧に[重複][適用済]ステータスのデータがある場合は登録できません。 . | . ",
     "url": "/docs/drawing-registration/registration-product/vertical-product/#%E8%A3%BD%E5%93%81%E3%82%92%E4%B8%8A%E9%9A%8E%E3%81%B8%E3%82%B3%E3%83%94%E3%83%BC%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/drawing-registration/registration-product/vertical-product/#製品を上階へコピーする"
-  },"97": {
+  },"43": {
     "doc": "上階コピー",
     "title": "上階コピー",
     "content": " ",
     "url": "/docs/drawing-registration/registration-product/vertical-product/",
     
     "relUrl": "/docs/drawing-registration/registration-product/vertical-product/"
-  },"98": {
+  },"44": {
     "doc": "製品登録",
     "title": "製品登録をする",
     "content": "アップロードしたベース図面を適用する製品の登録を行います。 . | 製品登録フロー図 | . | . 製品の登録を行うためには、事前設定が必要です。 . 製品の登録方法は以下の3パターンがあります。 . ",
     "url": "/docs/drawing-registration/registration-product/#%E8%A3%BD%E5%93%81%E7%99%BB%E9%8C%B2%E3%82%92%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/drawing-registration/registration-product/#製品登録をする"
-  },"99": {
+  },"45": {
     "doc": "製品登録",
     "title": "製品登録",
     "content": " ",
     "url": "/docs/drawing-registration/registration-product/",
     
     "relUrl": "/docs/drawing-registration/registration-product/"
-  },"100": {
+  },"46": {
     "doc": "ベース図面アップロード",
     "title": "ベース図面をアップロードする",
     "content": ". アップロードする図面の枚数が多いと処理に時間がかかります。 . | [品質管理システム]トップ画面から「ベース図面アップロード」を選択します。 . | . | 図面をアップロードする対象の物件を選択して、任意の図面をアップします。 「次へ」をクリックすることで図面を分割します。 . | . | 分割した図面の一覧が表示されます。 一覧の中からどの図面をアップロードするか選択して、「次へ」をクリックします。 . | . | [図面名称]、[図面番号]の読取範囲を指定します。 . 　　・図面名称：赤枠 　　・図面番号：水色枠 . 「次へ」をクリックで、指定した範囲の切り取り処理を行います。 . | . | 切り取った画像範囲が一覧で表示されます。 [図面名称]と[図面番号]を入力して、「登録」をクリックすることでベース図面のアップロードが完了します。 . | . 切取画像の文字を自動で読み取りたい場合は、右上のQRコードをiPadで読み込むことで可能です。 ※入力済みの項目も全て読取内容で上書きされます。 . 未入力の[図面名称]、[図面番号]がある場合は登録に進むことができません。 . | アップロードしたベース図面は[品質管理システム]トップ画面の「ベース図面」に登録されます。 . | . | . ",
     "url": "/docs/drawing-registration/upload-drawing/#%E3%83%99%E3%83%BC%E3%82%B9%E5%9B%B3%E9%9D%A2%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/drawing-registration/upload-drawing/#ベース図面をアップロードする"
-  },"101": {
+  },"47": {
     "doc": "ベース図面アップロード",
     "title": "ベース図面アップロード",
     "content": " ",
     "url": "/docs/drawing-registration/upload-drawing/",
     
     "relUrl": "/docs/drawing-registration/upload-drawing/"
-  },"102": {
+  },"48": {
     "doc": "ベース図面の差替",
     "title": "ベース図面の差替を行う",
     "content": ". ベース図面の差替を行なっても、差替前の共通の描き込み内容は消えずに残ります。 . | [品質管理システム]トップ画面から「ベース図面」を選択します。 . | . | [ベース図面一覧]画面で、図面を差し替えたいベース図面の「詳細」をクリックします。 . | . | 差し替えたいベース図面の「差替」をクリックします。 . | . | 差し替える図面をアップロードします。 . | . | 図面をアップしたら「差替」をクリックします。 . | . | 確認メッセージが表示されるので、「OK」をクリックしたら差替完了です。 . | . | . ",
     "url": "/docs/drawing-registration/replacing-drawing/#%E3%83%99%E3%83%BC%E3%82%B9%E5%9B%B3%E9%9D%A2%E3%81%AE%E5%B7%AE%E6%9B%BF%E3%82%92%E8%A1%8C%E3%81%86",
     
     "relUrl": "/docs/drawing-registration/replacing-drawing/#ベース図面の差替を行う"
-  },"103": {
+  },"49": {
     "doc": "ベース図面の差替",
     "title": "ベース図面の差替",
     "content": " ",
     "url": "/docs/drawing-registration/replacing-drawing/",
     
     "relUrl": "/docs/drawing-registration/replacing-drawing/"
-  },"104": {
+  },"50": {
     "doc": "ベース図面名称、番号の変更",
     "title": "[図面名称]、[図面番号]を変更する",
     "content": ". | [品質管理システム]トップ画面から「ベース図面」を選択します。 . | . | 変更を行いたいベース図面の「変更」をクリックします。 . | . | 変更する項目を入力し、「変更」をクリックすることで完了します。 . | . 空白での変更はできません。 . | . ",
     "url": "/docs/drawing-registration/change-name/#%E5%9B%B3%E9%9D%A2%E5%90%8D%E7%A7%B0%E5%9B%B3%E9%9D%A2%E7%95%AA%E5%8F%B7%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/drawing-registration/change-name/#図面名称図面番号を変更する"
-  },"105": {
+  },"51": {
     "doc": "ベース図面名称、番号の変更",
     "title": "ベース図面名称、番号の変更",
     "content": " ",
     "url": "/docs/drawing-registration/change-name/",
     
     "relUrl": "/docs/drawing-registration/change-name/"
-  },"106": {
+  },"52": {
     "doc": "ベース図面の登録",
     "title": "ベース図面の登録",
     "content": "ベース図面の登録と、登録したベース図面をもとに製品の登録を行います。 . | フロー図 | . | . ",
     "url": "/docs/drawing-registration/",
     
     "relUrl": "/docs/drawing-registration/"
-  },"107": {
+  },"53": {
     "doc": "分類マスタ",
     "title": "分類マスタ",
     "content": "工程の分類項目の設定をします。「工程マスタ」での工程の検索や、「製品一覧」での工程の状況の確認に使用します。 . | [品質管理システム]トップ画面から「分類マスタ」を選択します。 . | . | [分類一覧]画面から「新規追加」を選択します。 . | . | [分類名]を入力し、「確定」します。 . | . | 工程作成時に分類を選択できるようになります。 . | . | . | 品質管理システム_製品_[製品一覧]画面で表示する分類項目を設定する　([製品一覧]画面からも切り替え可) . [分類一覧]の星アイコンを選択すると、製品一覧のチェックボックスの表示/非表示を切り替えることができます。 表示項目は最大5つまで選択でき、番号順に表示されます。表示選択した分類項目は、[分類一覧]で自動的に番号順に並び替えられます。 . | . | . 分類の表示項目の選択、並び替えは[製品一覧]画面の[表示切り替え]からも操作が可能です。 . | . ",
     "url": "/docs/quality-control/pre-configuration/classification/",
     
     "relUrl": "/docs/quality-control/pre-configuration/classification/"
-  },"108": {
+  },"54": {
     "doc": "通知マスタ",
     "title": "通知マスタ",
     "content": "工程のNG時、完了時の通知先(Chatworkのグループチャット)の設定をします。 . | [品質管理システム]トップ画面から「通知マスタ」を選択します。 . | . | [通知先一覧]画面から「通知設定」を選択します。 . | . | ChatworkのAPIトークンの発行を行い、[チャットワーク通知設定]に入力して「確定」します。 | [通知先一覧]画面から「新規追加」を選択します。 . | [通知先編集]画面で「追加」を選択します。「追加」を押すことで通知先を増やすことができます。 入力欄が黄色になっている項目は登録時に入力必須の項目になります。 . | [通知先グループ名][チャットワークルームID(ルームIDの確認方法参考)][備考]を入力して「確定」します。 . | . | 工程作成時にNG時・完了時の通知先として選択できるようになります。 . | . | . ",
     "url": "/docs/quality-control/pre-configuration/notification/",
     
     "relUrl": "/docs/quality-control/pre-configuration/notification/"
-  },"109": {
+  },"55": {
     "doc": "製品登録",
     "title": "製品登録",
     "content": "製品登録は製品マスタの登録を参考に行ってください。 . ",
     "url": "/docs/quality-control/pre-configuration/registration-product/",
     
     "relUrl": "/docs/quality-control/pre-configuration/registration-product/"
-  },"110": {
+  },"56": {
     "doc": "スタンプマスタ",
     "title": "スタンプマスタ",
     "content": "図面手描き機能で使うスタンプを登録します。 . | [品質管理システム]トップ画面から「スタンプマスタ」を選択します。 . | . | [スタンプ一覧]画面右上の「新規追加」を選択します。 . | . | [イメージ]に登録したいスタンプ（画像）を挿入し、[サイズ]に図面に表示させたいサイズをピクセル単位で指定します。 . | . | 入力したら「確定」をクリックすると登録が完了します。 . | . | 登録したスタンプは[スタンプ一覧]画面に表示されます。 . | . また、図面手描き画面のスタンプツールで使用できるようになります。 . | . | . | スタンプの編集 登録済のスタンプのサイズ変更は下記のボタンから可能です。 . | . | . 画像の差替は新規作成時しかできません。 . | スタンプの削除 スタンプの削除は下記ボタンから可能です。 . | . | . スタンプマスタを削除しても、すでに図面に押してあるスタンプは消えません。 . ",
     "url": "/docs/quality-control/pre-configuration/registration-stamp/",
     
     "relUrl": "/docs/quality-control/pre-configuration/registration-stamp/"
-  },"111": {
+  },"57": {
     "doc": "図面属性マスタ",
     "title": "図面属性マスタ",
     "content": "図面の属性と、印刷時に属性に紐づけたレイヤーを標準で印刷する設定をします。 . | [品質管理システム]トップ画面から「図面属性マスタ」を選択します。 . | . | [図面一覧]画面から「新規追加」を選択します。 . | . | [属性名]を入力し、印刷時に標準で印刷したいレイヤーを選択して「確定」します。 . | . | 図面登録時に属性名として選択できるようになります。 . | . | . 図面印刷時、図面属性に紐づけたレイヤーが標準で印刷されるようになります。(下図では仕込検査レイヤーにも書き込みがありますが、形状図(2)の設定が適用され、印刷時に非表示になります。レイヤー名の左横の目アイコンを選択することで印刷の要否を切り替えられます) . | . ",
     "url": "/docs/quality-control/pre-configuration/drawing-attributes/",
     
     "relUrl": "/docs/quality-control/pre-configuration/drawing-attributes/"
-  },"112": {
+  },"58": {
     "doc": "事前設定",
     "title": "事前設定",
     "content": "品質管理を行うために必要な事前設定一覧となります。 . ",
     "url": "/docs/quality-control/pre-configuration/",
     
     "relUrl": "/docs/quality-control/pre-configuration/"
-  },"113": {
+  },"59": {
     "doc": "作業フローを作成",
     "title": "作業フロー（製品のチェックリスト）を作成する",
     "content": "作業フローに登録した工程が製品のチェックリストとなります。作業フローは物件-部位毎に設定することができ、工程マスタの工程から登録したり、他の作業フローから複製したりすることができます。 . 「作業フローマスタ」で作成・編集した工程は「工程マスタ」には反映されません。 . 「工程マスタ」で作成した工程のテンプレートを使用する場合 1. [品質管理システム]トップ画面から「作業フローマスタ」を選択します。 | . 2. 作業フローを作成したい物件のコード、物件名称、部位名称のいずれかを[物件-部位一覧]画面の検索欄に入力し、検索ボタンかEnterキーを押して検索します。 | . 3. 検索結果に表示された部位を選択すると、部位に割り当てられた工程が作業順で表示されます。これが作業フローになります。 | . 4. 「工程から登録」を選択します。 | . 5. 登録元にしたい工程の分類、担当者、着手条件・完了時のステータスをプルダウンメニューから選択し、Enterキーを押して絞り込みます。 | . 6. 絞り込み結果から工程を[選択]します。 7. 作業フローの末尾に作成した工程が追加されます。 | . 既存の作業フローを使用する場合 1. [品質管理システム]トップ画面から「作業フローマスタ」を選択します。 | . 2. 作業フローを作成したい物件のコード、物件名称、部位名称のいずれかを[物件-部位一覧]画面の検索欄に入力し、検索ボタンかEnterキーを押して検索します。 | . 3. 検索結果に表示された部位を選択すると、部位に割り当てられた工程が作業順で表示されます。これが作業フローになります。 | . 4. 「作業フローから複製」を選択します。 | . 5. 登録元にしたい作業フローをもつ物件のコード、物件名称、部位名称のいずれかを検索欄に入力し、Enterキーを押して検索します。 | . 6. 絞り込み結果から当該工程を[選択]します。 　※この処理は実行に時間がかかるため、途中で終了しないでください。 　 7.「作業フローの複製が完了しました」というメッセージが出たら複製完了です。作業フローの末尾に登録元の作業フローが追加されます。 | . 工程を新規作成する場合 新規作成する方法は工程のテンプレートを作成 2〜を参照してください。また、その際「工程名」を「作業名」に読み替えてください。 工程を編集する 1. 編集したい工程の鉛筆マークを選択します。 | . 2. 工程のテンプレートを作成を元に編集します。 3. 「確定」を選択します。 ",
     "url": "/docs/quality-control/administrator/work-flow/#%E4%BD%9C%E6%A5%AD%E3%83%95%E3%83%AD%E3%83%BC%E8%A3%BD%E5%93%81%E3%81%AE%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/quality-control/administrator/work-flow/#作業フロー製品のチェックリストを作成する"
-  },"114": {
+  },"60": {
     "doc": "作業フローを作成",
     "title": "作業フローを作成",
     "content": " ",
     "url": "/docs/quality-control/administrator/work-flow/",
     
     "relUrl": "/docs/quality-control/administrator/work-flow/"
-  },"115": {
+  },"61": {
     "doc": "製品の図面を削除",
     "title": "製品の図面を削除する",
     "content": ". | [品質管理システム]トップ画面から「製品」を選択します。 . | . | [製品一覧]画面でQRコードを読み込むか検索し、図面を削除したい製品を選択します。 . | . | 製品詳細から「図面」タブを開き、削除したい図面の「✖️」をクリックします。 . | . | 確認メッセージで、「削除」をクリックすると完了します。 . | . | . 図面の登録は製品登録を参考に行ってください。 . ",
     "url": "/docs/quality-control/administrator/registration-draw/#%E8%A3%BD%E5%93%81%E3%81%AE%E5%9B%B3%E9%9D%A2%E3%82%92%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/quality-control/administrator/registration-draw/#製品の図面を削除する"
-  },"116": {
+  },"62": {
     "doc": "製品の図面を削除",
     "title": "製品の図面を削除",
     "content": " ",
     "url": "/docs/quality-control/administrator/registration-draw/",
     
     "relUrl": "/docs/quality-control/administrator/registration-draw/"
-  },"117": {
+  },"63": {
     "doc": "製品のラベルを印刷",
     "title": "製品のラベルを印刷する（専用のラベルプリンター）",
     "content": "ラベルのQRコードを作業者がiPadで読み取り、製品のチェックリストにスムーズにアクセスできるようになります。 . ラベルの印刷には専用のラベルプリンター（Bepop本体とBepop PC EX、プリンタドライバのインストール）が必要になります。また、事前準備としてCドライブ直下にBepopExportという名前でフォルダを作成しておきます。 . | [品質管理システム]トップ画面から「製品」を選択します。 . | . | [製品一覧]でラベル印刷したい製品を検索してチェックボックスにチェックを入れるか全てを選択し、「ラベル印刷」を選択します。 . | . ラベル内容 . | 物件名 | 部材名 | 型枠番号 | 製造ライン | 配合 | QRコード | . | . | Bepop Exが自動的に起動します。Bepop Exから印刷を行います。 . | . ",
     "url": "/docs/quality-control/administrator/print-label/#%E8%A3%BD%E5%93%81%E3%81%AE%E3%83%A9%E3%83%99%E3%83%AB%E3%82%92%E5%8D%B0%E5%88%B7%E3%81%99%E3%82%8B%E5%B0%82%E7%94%A8%E3%81%AE%E3%83%A9%E3%83%99%E3%83%AB%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%BC",
     
     "relUrl": "/docs/quality-control/administrator/print-label/#製品のラベルを印刷する専用のラベルプリンター"
-  },"118": {
+  },"64": {
     "doc": "製品のラベルを印刷",
     "title": "製品のラベルを印刷",
     "content": " ",
     "url": "/docs/quality-control/administrator/print-label/",
     
     "relUrl": "/docs/quality-control/administrator/print-label/"
-  },"119": {
+  },"65": {
     "doc": "工程の状況を確認",
     "title": "工程の状況を確認する",
     "content": "品質管理システム：製品 &gt; [製品一覧]から製品を選択し、「チェックリスト」タブから各工程の状況を確認します。 . | . | パーセンテージ：工程の完了率 . 赤文字：NG項目あり . 青文字：完了済み。チェック項目が全て「OK」または「スキップ」 . 黒文字：未完了 . | パーセンテージ下の時間：チェックにかかった時間(チェックリスト内の最初の更新から最終更新の時間を記録) | 済マーク：青色→完了済み　灰色→未完了 | . ",
     "url": "/docs/quality-control/administrator/process-confirmation/#%E5%B7%A5%E7%A8%8B%E3%81%AE%E7%8A%B6%E6%B3%81%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/quality-control/administrator/process-confirmation/#工程の状況を確認する"
-  },"120": {
+  },"66": {
     "doc": "工程の状況を確認",
     "title": "工程の状況を確認",
     "content": " ",
     "url": "/docs/quality-control/administrator/process-confirmation/",
     
     "relUrl": "/docs/quality-control/administrator/process-confirmation/"
-  },"121": {
+  },"67": {
     "doc": "製品のQRコードを印刷",
     "title": "製品のQRコードを印刷する（通常のプリンター）",
     "content": ". | 製品一覧から、印刷したいQRコードを含む製品のチェックボックスを選択します。 . | 「QRコード印刷」を選択します。 . | 印刷設定を確認し、印刷します。 . | . ",
     "url": "/docs/quality-control/administrator/print-qr/#%E8%A3%BD%E5%93%81%E3%81%AEqr%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%8D%B0%E5%88%B7%E3%81%99%E3%82%8B%E9%80%9A%E5%B8%B8%E3%81%AE%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%BC",
     
     "relUrl": "/docs/quality-control/administrator/print-qr/#製品のqrコードを印刷する通常のプリンター"
-  },"122": {
+  },"68": {
     "doc": "製品のQRコードを印刷",
     "title": "製品のQRコードを印刷",
     "content": " ",
     "url": "/docs/quality-control/administrator/print-qr/",
     
     "relUrl": "/docs/quality-control/administrator/print-qr/"
-  },"123": {
+  },"69": {
     "doc": "工程の各項目詳細",
     "title": "工程の各項目詳細",
     "content": "| . a. [工程名] . 工程名を設定します。 例) 配筋写真撮影【梁】 . b. [分類] . 工程のカテゴリを設定します。 工程のチェック項目(後述h.)が全て「OK」または「スキップ」のとき完了状態となり、工程の状況を確認する指標となります。 (項目設定：品質管理システム_分類マスタ) 例) 配筋写真(型枠前) . c. [担当者] . 工程の担当者を設定します。 設定された担当者は工程一覧画面や集計画面に表示され、担当者で絞り込みできるようになります。 例) 外注鉄筋業者 . 担当者項目を編集する 担当者名を編集したり新規追加することができます。 1. [担当者]欄を選択します。 2. 担当者一覧末尾の「編集…」を選択します。 | . 3. 担当者名を編集します。各行の内容が担当者名になります。 | . 4. 編集が完了したら「OK」を選択します。 5. 一覧に編集した[担当者名]が表示されます。 d. [着手条件のステータス] . 現在のステータスが着手条件のステータスと同じまたは着手条件のステータスよりも進んでいる場合に、チェック項目のチェックが可能になります。 (項目設定：基幹システム_製造ラインステータス) 例) 配筋検査(外注鉄筋業者)完了 . e. [完了時のステータス] . 工程のチェック項目(後述h.)が全て「OK」または「スキップ」になった際、現在のステータスが完了時のステータス未満の場合に完了時のステータスに更新されます。 (項目設定：基幹システム_製造ラインステータス) 例) 配筋写真撮影完了 . f. [NG時の通知先] . チェック項目でNGが発生した際、設定したChatworkのチャットに通知を送ります。 (項目設定：品質管理システム_通知マスタ) 例) 品質管理システム NG通知通知用ルーム . g. [完了時の通知先] . 工程のチェック項目(後述h.)が全て「OK」または「スキップ」になった際、設定したChatworkのチャットに通知を送ります。 (項目設定：品質管理システム_通知マスタ) 例) 品質管理システム 完了通知用ルーム . h. [チェックリスト] . 工程の作業のチェック項目を設定できます。作業者はチェック項目と製品の状況を照らし合わせて、要件をクリアできているか、どのような不備が発生しているかを、判定や状況写真を以って報告します。チェックリストの作成者は、チェックの手がかりとなる画像や動画のリンクを添付したり、文言の装飾でより注意すべきポイントを示したりすることができます。 . 作業者が見る画像参考 品質管理システム：製品 &gt; 製品一覧 &gt; 製品詳細 &gt; チェックリスト | . | 追加：チェック項目を新規追加します。 | 入力タイプ：チェック判定の選択肢をYes/NoまたはOK/NGから選択します。 | ヒント：チェックの手がかりとなるテキスト、画像、動画のリンクを追加できます。 | チェック項目：チェック内容を記述します。右クリックで文字色、スタイル、フォントなどの編集ができます。例) 全景を撮影する | . ※FileMaker Goの場合、以下の制約があります。 . iOS でサポートされていないフォントは、サポートされているフォントに変換されます。 FileMaker Go では、太字、斜体、下線、単語下線、二重下線、タイトル、大文字、小文字、字消し線のテキストスタイルを表示できます。 FileMaker Go では、強調表示、字間狭く、字間広く、スモールキャップ、上付き、下付きはサポートされていません。 . i. [図面への手書き機能の設定] . 図面を登録すると、図面上のレイヤー(画層。積み重ねられた透明なフィルムのようなもの)に書き込みをすることができます。レイヤーは全部で　「ピッキング、配筋検査(外注鉄筋業者)、配筋検査(製造管理)、製造ライン自主検査、打設前検査、製品検査、仕込検査、注釈」の8枚があります。 各設定は初期設定で、書き込み時に変更可能です。 . | デフォルトレイヤー：チェックリストから図面を開いたときに書き込み対象になっているレイヤーです。（非表示時でも書き込まれます） | 表示レイヤー：チェックリストから図面を開いたときのレイヤーの表示/非表示を設定します。 | デフォルトツール：レイヤーに書き込むツールをペンかマーカーに設定します。マーカーはペンより透明度が高く、幅が広くなります。 | . | . (実際の作業画面：品質管理システム_製品_製品一覧_製品詳細_チェックリスト_図面) . ",
     "url": "/docs/quality-control/administrator/detail-template/",
     
     "relUrl": "/docs/quality-control/administrator/detail-template/"
-  },"124": {
+  },"70": {
     "doc": "工程のテンプレート作成",
     "title": "工程のテンプレート作成",
     "content": "作業フローに登録するための工程のテンプレートを作成します。工程はチェック項目の集まりで、作業フローは工程の集まりです。工程のテンプレートを作成しておくことで、作業フローの作成が簡単に行えるようになります。 . | . | [品質管理システム]トップ画面から「工程マスタ」を選択します。 . | . | [工程一覧]画面から「新規作成」を選択します。 . | . | [工程編集]画面で各項目の設定をします。 設定内容については工程の各項目詳細を参考にしてください。 . | . | 編集が完了したら「確定」を選択します。 . | 工程一覧に工程が追加されます。 . | . ",
     "url": "/docs/quality-control/administrator/template-process/",
     
     "relUrl": "/docs/quality-control/administrator/template-process/"
-  },"125": {
+  },"71": {
     "doc": "工程の指示書を登録",
     "title": "工程の指示書を登録する",
     "content": ". | 品質管理システム：製品 &gt; [製品一覧]から製品を選択し、「チェックリスト」タブから工程を選択し、チェック項目の「指示書」を選択します。 . | . | ヒントテキストを記入、指示書をpdf形式で挿入します。 . | . | . ",
     "url": "/docs/quality-control/administrator/Instruction-registration/#%E5%B7%A5%E7%A8%8B%E3%81%AE%E6%8C%87%E7%A4%BA%E6%9B%B8%E3%82%92%E7%99%BB%E9%8C%B2%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/quality-control/administrator/Instruction-registration/#工程の指示書を登録する"
-  },"126": {
+  },"72": {
     "doc": "工程の指示書を登録",
     "title": "工程の指示書を登録",
     "content": " ",
     "url": "/docs/quality-control/administrator/Instruction-registration/",
     
     "relUrl": "/docs/quality-control/administrator/Instruction-registration/"
-  },"127": {
+  },"73": {
     "doc": "製品を廃版にする",
     "title": "製品を廃版にする",
     "content": ". | [製品一覧]画面から[物件]等の条件を設定して表示する製品を絞り込みます。 . | 一覧から製品を選択します。 . | 「製品情報」タブを開き「廃版」を選択します。 . | . | 廃版にすると、製品のステータスが廃盤になり、チェックリストに[廃版処理]の工程が追加されます。 . | . | [廃版処理]工程が全て完了するとステータスが[廃版処理完了]となります。 . | . | . ",
     "url": "/docs/quality-control/administrator/discontinue-product/",
     
     "relUrl": "/docs/quality-control/administrator/discontinue-product/"
-  },"128": {
+  },"74": {
     "doc": "各製品の状況を確認",
     "title": "各製品の状況を確認する（製品一覧画面）",
     "content": "| . | 検索：製品情報、分類、チェックリストの項目での絞り込み | チェックボックス列の表示切替：分類された工程の状況を元にしたチェックボックスの表示切替および並び順の設定 | 検索結果：絞り込んだ製品の情報、分類された工程の状況、チェックリスト内の各項目の有無を表示 | . | 基幹システム_製品の情報を元に検索欄で選択、入力して製品を絞りこみます。 例) | . ↓ . | . | 必要があれば分類ごとの状況、チェックリストの内容でさらに絞り込みます。 | . ",
     "url": "/docs/quality-control/administrator/product-line/#%E5%90%84%E8%A3%BD%E5%93%81%E3%81%AE%E7%8A%B6%E6%B3%81%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%E8%A3%BD%E5%93%81%E4%B8%80%E8%A6%A7%E7%94%BB%E9%9D%A2",
     
     "relUrl": "/docs/quality-control/administrator/product-line/#各製品の状況を確認する製品一覧画面"
-  },"129": {
+  },"75": {
     "doc": "各製品の状況を確認",
     "title": "各製品の状況を確認",
     "content": " ",
     "url": "/docs/quality-control/administrator/product-line/",
     
     "relUrl": "/docs/quality-control/administrator/product-line/"
-  },"130": {
+  },"76": {
     "doc": "製品の図面を印刷",
     "title": "製品の図面を印刷する",
     "content": ". 一括印刷 1. 「品質管理システム」トップ画面から「製品」を選択します。 | . 2. [製品一覧]で印刷したい図面が登録されている製品を検索してチェックボックスにチェックを入れるか全てを選択し、「一括印刷」を選択します。 | . 3. 印刷設定をします。 ・「属性」タブ 印刷したい図面を属性で絞り込みます。(項目設定：品質管理システム_図面属性マスタ) [全属性]：製品に登録されている図面を全て印刷します。 その他の属性：指定した属性の図面を絞り込みます。(複数選択可) | . ・「レイヤー」タブ 図面の印刷したいレイヤーを選択します。(「プレビュー」画面でも切替可能) | . [属性に合わせる]：図面属性に紐づけられたレイヤーが印刷されます。図面属性が未設定の図面は全レイヤーが印刷されます。 その他のレイヤー：図面属性に関わらず選択しているレイヤーが印刷されます。(複数選択可) ・「印刷サイズ」タブ 図面を印刷するサイズを選択します。(「プレビュー」画面でも変更可能) | . [元のサイズに合わせる]：登録されている図面のpdfファイルの用紙サイズで印刷されます。 その他のサイズ：元の用紙サイズに関わらず、選択したサイズで印刷されます。 4. 「プレビュー」を選択します。 5. 図面ごとに印刷の要否、用紙サイズ、レイヤーの表示/非表示を確認し、「印刷」を選択します。 | . 6. プリンターの設定を確認し、印刷します。 個別印刷 1. 「品質管理システム」トップ画面から「製品」を選択します。 | . 2. [製品一覧]で印刷したい図面が登録されている製品を検索して選択します。 | . 3. 製品詳細の「図面」タブ内の図面の印刷ボタンを選択します。 | . 4. 用紙サイズ、レイヤーの表示/非表示を確認し、「印刷」を選択します。 | . 5. プリンターの設定を確認し、印刷します。 ",
     "url": "/docs/quality-control/administrator/print-draw/#%E8%A3%BD%E5%93%81%E3%81%AE%E5%9B%B3%E9%9D%A2%E3%82%92%E5%8D%B0%E5%88%B7%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/quality-control/administrator/print-draw/#製品の図面を印刷する"
-  },"131": {
+  },"77": {
     "doc": "製品の図面を印刷",
     "title": "製品の図面を印刷",
     "content": " ",
     "url": "/docs/quality-control/administrator/print-draw/",
     
     "relUrl": "/docs/quality-control/administrator/print-draw/"
-  },"132": {
+  },"78": {
     "doc": "機能：管理者向け",
     "title": "機能：管理者向け",
     "content": "品質管理：管理者向けの機能一覧となります。 . ",
     "url": "/docs/quality-control/administrator/",
     
     "relUrl": "/docs/quality-control/administrator/"
-  },"133": {
+  },"79": {
     "doc": "図面に手描きする",
     "title": "図面に手描きする",
     "content": ". | 「チェックリスト」タブ内のいずれかの工程を選択してチェック項目を表示したのち、「図面」を選択します。 . | . | 図面描き込み画面に遷移します。 図面の描き込みやチェックリストのステータス変更等を行うことができます。 . | . | . ツール詳細 . | ツール | 詳細 | . | ペン、マーカー | 右クリックor長押しで太さ、色の選択ができます。 | . | 消しゴム | 右クリックor長押しで太さを選択できます。 | . | 四角枠 | 右クリックor長押しで枠の太さ、色の選択ができます。 | . | テキストボックス | 右クリックor長押しで太さ、色の選択をし、任意のテキストを入力できます。 | . | スタンプ | 右クリックor長押しでスタンプの選択ができます。 ※あらかじめスタンプマスタにスタンプを登録しておく必要があります。 | . | レイヤー(画層) | 描き込む検査項目レイヤーの選択、表示/非表示を切り替えます。 | . | 選択ツール | 描き込んだ枠やテキストを選択して、移動やサイズ変更ができます。 | . | お気に入り登録 | 枠やテキストをお気に入り登録し、ドラッグ&amp;ドロップで使用できます。 | . | 拡大表示 | 画面を拡大表示することができます。 | . | 縮小表示 | 画面を縮小表示することができます。 | . | 拡大/縮小を解除 | 拡大/縮小表示した画面を元に戻します。 | . | 手のひら | 表示画面を移動します。 | . | 保存 | 保存、戻るボタン、図面の切り替えで手描き内容を保存できます。 | . | お気に入り登録方法 | . | . ※長期間別のアプリを使用したりiPadをスリープする場合は保存をしてください。 . 複数人で同時に同じ図面の同一レイヤーに書き込むと、最後に保存した内容しか保存されません。異なるレイヤーでの描画内容は問題なく保存されます。 . 以下の状況で、「他に図面データを編集している方がいるため、保存できませんでした。再度やり直してください。」というエラーメッセージが表示される場合がありますが、メッセージウインドウを閉じて１〜２秒ほど待つと保存可能になります。 . | 複数人で同じ図面の異なるレイヤーを操作して、同じタイミングで保存した | 別の人が図面PDFを登録している最中 | . ",
     "url": "/docs/quality-control/worker/drawing/",
     
     "relUrl": "/docs/quality-control/worker/drawing/"
-  },"134": {
+  },"80": {
     "doc": "製品詳細画面",
     "title": "製品詳細画面",
     "content": "製品を選択すると「製品情報」、「図面」、「チェックリスト」タブが表示されます。 . | 「製品情報」タブ . 製品の詳細情報を確認できます。備考の記入、製品を廃版にする操作ができます。 . | . | . | 「図面」タブ . 製品に関する図面の確認ができます。品質チェック時に図面上のレイヤーに書き込んだり、書き込んだものを印刷することができます。 . | . | . | 「チェックリスト」タブ . 製品の作業フローを確認できます。各工程を選択すると右枠にチェック項目が表示され、その項目をもとに製品の品質チェックを行います。 . | . | . 「チェックリスト」タブ内の各工程を選択すると、右枠にチェック項目が表示されます。 . | . メモ、写真、ヒント、ヒント動画、指示書、報告書、図面ボタンは、内容が登録されていると、ボタンの色が青から赤に変わります。 . ",
     "url": "/docs/quality-control/worker/detail-product/",
     
     "relUrl": "/docs/quality-control/worker/detail-product/"
-  },"135": {
+  },"81": {
     "doc": "製品の品質チェック",
     "title": "製品の品質チェックをする",
     "content": ". ヒント・動画ヒントを確認する 1. 「チェックリスト」タブ内で工程を選択し、チェック項目の「ヒント」を選択します。 2. ヒントテキスト・ヒント写真が表示されます。画像左上のボタンを選択すると拡大表示できます。 チェック項目に情報を追加する ・メモ・写真を登録する 1. 「チェックリスト」タブ内で工程を選択し、チェック項目の「メモ」、「写真」を選択します。 | . 2. メモを記入、写真枠をタップし写真撮影をして登録します。 写真撮影はiPadのみの機能です。 | . ・報告書を登録する 1. 「チェックリスト」タブ内で工程を選択し、チェック項目の「報告書」を選択します。 2. [登録名]または[フリガナ]で検索して作成者を登録し、報告書をpdf形式で挿入します。 チェック項目のステータスを変更する 工程のチェック項目が全て「OK」または「スキップ」のとき、工程が完了済みとなります。 ・チェック項目を「OK」、「スキップ」にする 「チェックリスト」タブ内で工程を選択し、チェック項目の「OK」、「スキップ」を選択します。 | . ・チェック項目を「NG」にする 1. 「チェックリスト」タブ内で工程を選択し、チェック項目にメモと写真を登録します。 2. 「NG」を選択します。再検査となり、工程内に同内容のチェック項目が生成されます。 | . ↓ | . ・チェック項目を「保留」にする 「チェックリスト」タブ内で工程を選択し、チェック項目の「保留」を選択します。再検査となり、工程内に同内容のチェック項目が生成されます。 | . ↓ | . ",
     "url": "/docs/quality-control/worker/quality-check/#%E8%A3%BD%E5%93%81%E3%81%AE%E5%93%81%E8%B3%AA%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%82%92%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/quality-control/worker/quality-check/#製品の品質チェックをする"
-  },"136": {
+  },"82": {
     "doc": "製品の品質チェック",
     "title": "製品の品質チェック",
     "content": " ",
     "url": "/docs/quality-control/worker/quality-check/",
     
     "relUrl": "/docs/quality-control/worker/quality-check/"
-  },"137": {
+  },"83": {
     "doc": "チェックリストを表示",
     "title": "製品のチェックリストを表示する",
     "content": ". [製品]からQRコードを読込む（iPad） 1. [品質管理システム]トップ画面から「製品」を選択します。 | . 2. 検索欄にある「QRコード読込み」を選択し、製品のQRコードを読み込みます。 | . 3. 製品の「チェックリスト」が表示されます。 | . [QRコード読込み]からQRコードを読込む（iPad） 1. [品質管理システム]トップ画面から「QRコードを読込み」を選択します。 | . 2. 製品のQRコードを読み込みます。 3. 製品の「チェックリスト」が表示されます。 | . [チェックリスト]からQRコードを読込む（iPad） 1. [品質管理システム]トップ画面から「チェックリスト」を選択します。 | . 2. 「QRコード読み込み」を選択し、製品のQRコードを読み込みます。 | . 3. 製品の「チェックリスト」が表示されます。 | . [チェックリスト]から絞り込む 1. [品質管理システム]トップ画面から「チェックリスト」を選択します。 | . 2. [物件]、[部位]、[製品番号]を入力して「確定」を選択します。 | . 3. 製品の「チェックリスト」が表示されます。 | . QRコードの読み込みはiPadのみの機能です。 . ",
     "url": "/docs/quality-control/worker/checklist/#%E8%A3%BD%E5%93%81%E3%81%AE%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B",
     
     "relUrl": "/docs/quality-control/worker/checklist/#製品のチェックリストを表示する"
-  },"138": {
+  },"84": {
     "doc": "チェックリストを表示",
     "title": "チェックリストを表示",
     "content": " ",
     "url": "/docs/quality-control/worker/checklist/",
     
     "relUrl": "/docs/quality-control/worker/checklist/"
-  },"139": {
+  },"85": {
     "doc": "機能：作業者向け",
     "title": "機能：作業者向け",
     "content": "品質管理：作業者向けの機能一覧となります。 . ",
     "url": "/docs/quality-control/worker/",
     
     "relUrl": "/docs/quality-control/worker/"
-  },"140": {
+  },"86": {
     "doc": "品質管理",
     "title": "品質管理",
     "content": "フロー図 . | . 製品情報構造図 . | . ",
     "url": "/docs/quality-control/",
     
     "relUrl": "/docs/quality-control/"
-  },"141": {
-    "doc": "車両、運転手マスタの登録",
-    "title": "車両、運転手マスタ登録する",
-    "content": "荷姿票で選択するための車両・運転手マスタ登録をします。 . | [出荷票一覧]画面の右上のメニューアイコンから「運転手マスタ」を選択します。 . | . | [運転手マスタ一覧]画面で「新規登録」を選択します。 . | . | [運転手コード]、[氏名]、[運転手 電話番号]を設定します。 . | 運転手マスタ一覧に登録されます。 . | . | . 同様に「車両マスタ」の登録を行います。 . ",
-    "url": "/docs/shipment-control/shipping-company/registration-vehicle/#%E8%BB%8A%E4%B8%A1%E9%81%8B%E8%BB%A2%E6%89%8B%E3%83%9E%E3%82%B9%E3%82%BF%E7%99%BB%E9%8C%B2%E3%81%99%E3%82%8B",
+  },"87": {
+    "doc": "製品登録",
+    "title": "製品登録",
+    "content": "製品登録は製品マスタの登録を参考に行ってください。 . ",
+    "url": "/docs/shipment-control/pre-configuration/registration-product/",
     
-    "relUrl": "/docs/shipment-control/shipping-company/registration-vehicle/#車両運転手マスタ登録する"
-  },"142": {
-    "doc": "車両、運転手マスタの登録",
-    "title": "車両、運転手マスタの登録",
-    "content": " ",
-    "url": "/docs/shipment-control/shipping-company/registration-vehicle/",
-    
-    "relUrl": "/docs/shipment-control/shipping-company/registration-vehicle/"
-  },"143": {
+    "relUrl": "/docs/shipment-control/pre-configuration/registration-product/"
+  },"88": {
     "doc": "製造管理システム概要",
     "title": "PC製造管理システム概要",
     "content": "PC製造管理システムは、製品データや日々の生産状況などを元に工程管理、品質管理、出荷管理、コンクリート品質管理を行うことができるシステムです。 . 　　作業フロー図 . 　　データ・システム関係図 . ",
     "url": "/#pc%E8%A3%BD%E9%80%A0%E7%AE%A1%E7%90%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%A6%82%E8%A6%81",
     
     "relUrl": "/#pc製造管理システム概要"
-  },"144": {
+  },"89": {
     "doc": "製造管理システム概要",
     "title": "製造管理システム概要",
     "content": " ",
