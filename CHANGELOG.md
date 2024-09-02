@@ -19,3 +19,5 @@ nav_order: 108
 - [製品の図面を削除する]({% link docs/quality-control/administrator/registration-draw/index.md%})　変更
 - [図面に手描きする]({% link docs/quality-control/worker/drawing/index.md%})　変更
 - [スタンプマスタ]({% link docs/quality-control/pre-configuration/registration-stamp/index.md%}) 追加
+- 不要機能　削除
+<!-- コンクリート強度、WEB工程表、WEB荷姿表機能 -->
