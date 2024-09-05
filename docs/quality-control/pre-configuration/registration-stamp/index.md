@@ -24,7 +24,8 @@ has_children: false
     <img src="../../../../assets/images/quality-control/pre-configuration/registration-stamp/2.png" width="80%">
     </td></tr></table>
 
-1. [イメージ]に登録したいスタンプ（画像）を挿入し、[サイズ]に図面に表示させたいサイズをピクセル単位で指定します。
+1. [イメージ]に登録したいスタンプ（画像）を挿入します。  
+    ここで挿入した画像のサイズがそのまま適用されます。
 
     <table><tr><td>
     <img src="../../../../assets/images/quality-control/pre-configuration/registration-stamp/3.png" width="50%">
@@ -47,16 +48,6 @@ has_children: false
     <table><tr><td>
     <img src="../../../../assets/images/quality-control/pre-configuration/registration-stamp/6.png" width="40%">
     </td></tr></table>
-
-- スタンプの編集  
-    登録済のスタンプのサイズ変更は下記のボタンから可能です。
-
-    <table><tr><td>
-    <img src="../../../../assets/images/quality-control/pre-configuration/registration-stamp/7.png" width="75%">
-    </td></tr></table>
-
-{: .warning }
-画像の差替は新規作成時しかできません。
 
 - スタンプの削除  
     スタンプの削除は下記ボタンから可能です。
