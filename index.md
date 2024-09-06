@@ -23,3 +23,8 @@ permalink: /
 　　**データ・システム関係図**
 
 <img src="./assets/images/overview/3.png" width="100%">
+
+<br>
+　　**データ・システム関係図**
+
+<img src="./assets/images/overview/4.png" width="100%">
